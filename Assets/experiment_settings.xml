@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ExperimentSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Test">
+  <DatabaseSettings>
+    <Server>127.0.0.1</Server>
+    <Schema>EVE</Schema>
+    <User>Student</User>
+    <Password>Masterarbeit2020</Password>
+  </DatabaseSettings>
+  <SensorSettings Labchart="false" H7Server="false" MiddleVR="false">
+    <Sensors />
+  </SensorSettings>
+  <ParameterSettings>
+    <Parameters>
+      <Parameter>maxDuration</Parameter>
+      <Parameter>timePressure</Parameter>
+    </Parameters>
+  </ParameterSettings>
+  <QuestionnaireSettings>
+    <Questionnaires>
+      <Questionnaire>ExampleQuestionnaire</Questionnaire>
+    </Questionnaires>
+  </QuestionnaireSettings>
+  <SceneSettings>
+    <Scenes>
+      <Scene Curtain="false" Name="ExampleQuestionnaire.xml" />
+    </Scenes>
+  </SceneSettings>
+  <LabchartSettings>
+    <Commenters>
+      <Sensor>QuestionnaireSystem</Sensor>
+      <Sensor>LabChart</Sensor>
+    </Commenters>
+    <Path>PathToLabchartFiles\\</Path>
+  </LabchartSettings>
+  <UISettings>
+    <Resolution X="1920" Y="1080" />
+  </UISettings>
+</ExperimentSettings>

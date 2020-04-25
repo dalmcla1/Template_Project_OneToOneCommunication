@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: acf96cd6b647c1245a48d32b03c5ced0
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Beard_Diffuse
+    second: {fileID: 2800000, guid: efd71b2c9326e7248a0d654da63b85ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Beard_Gloss
+    second: {fileID: 2800000, guid: dc81500818603074ca58467538895922, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Beard_Normal
+    second: {fileID: 2800000, guid: 3ba9c4d933df3a84cbb3d84db7afd6da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Beard_Opacity
+    second: {fileID: 2800000, guid: 6c2bcb0e335c53f40b85012b3bcc343c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Beard_Specular
+    second: {fileID: 2800000, guid: f06cb12be11969941807d243acfb50f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Body_Diffuse
+    second: {fileID: 2800000, guid: 85df862777fbd764ba4079a27f9e267b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Body_Gloss
+    second: {fileID: 2800000, guid: 1cb053a57becaa542885043e70c32bd4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Body_Normal
+    second: {fileID: 2800000, guid: 47127072759f72c45b0e3fee596c1ce5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Body_Opacity
+    second: {fileID: 2800000, guid: adb8efd3536fcbe4281b0b9516a3e66d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Body_Specular
+    second: {fileID: 2800000, guid: 9a6fcb44e904e574db3e15208aceb215, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Bottom_Diffuse
+    second: {fileID: 2800000, guid: 84b869a2f9d78c04fa43deb3a509b42f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Bottom_Gloss
+    second: {fileID: 2800000, guid: bbcb3c6f0131e52488495c69770889e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Bottom_Normal
+    second: {fileID: 2800000, guid: 7b471471121318a48a66568c18f7ce69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Bottom_Opacity
+    second: {fileID: 2800000, guid: 4d083235b4a2b5241aa1d1db1de12816, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Bottom_Specular
+    second: {fileID: 2800000, guid: 12e1ae7a1f0111a4282976a8b811e762, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Eyewear_Diffuse
+    second: {fileID: 2800000, guid: cc4a927dfcc5fcf428f282815b36d5a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Eyewear_Gloss
+    second: {fileID: 2800000, guid: eea952cef1153bf4aae2cc5b07942daa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Eyewear_Normal
+    second: {fileID: 2800000, guid: 1efc7141c035dbe4da1e2f8367cfbff4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Eyewear_Opacity
+    second: {fileID: 2800000, guid: 5083cb6401045f74f90dc07afd7809af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Eyewear_Specular
+    second: {fileID: 2800000, guid: fe8fd5c7841734d4cbb8a8902dcf2a67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Hat_Diffuse
+    second: {fileID: 2800000, guid: 9674dd81260ca7b46b4e988bbd48f154, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Hat_Gloss
+    second: {fileID: 2800000, guid: 66ad4b975f030064ea1b28415c316a8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Hat_Normal
+    second: {fileID: 2800000, guid: 9e790e849fea2ce49952d8277fd9cb46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Hat_Opacity
+    second: {fileID: 2800000, guid: 3acdce42f8e625a45abaa8b4229c4dff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Hat_Specular
+    second: {fileID: 2800000, guid: d2c4705e8f95e0440999d88197c1f7ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Shoes_Diffuse
+    second: {fileID: 2800000, guid: bb6182b53606c33449d17e6fee3c1ed7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Shoes_Gloss
+    second: {fileID: 2800000, guid: ef96e3582491a59439fcc382e058ec02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Shoes_Normal
+    second: {fileID: 2800000, guid: 07146d7d60cb8cd4d8e834be9c227a93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Shoes_Opacity
+    second: {fileID: 2800000, guid: 3f380c21d006bac48ae49b0c49371b59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Shoes_Specular
+    second: {fileID: 2800000, guid: 4bb7a5833b2725b40bd27246a89d15a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Top_Diffuse
+    second: {fileID: 2800000, guid: d6c3b13338d41d3458fcf668ccd51b5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Top_Gloss
+    second: {fileID: 2800000, guid: 1becf6a2ec50902498c158e2268c988f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Top_Normal
+    second: {fileID: 2800000, guid: e9828baba03c4624890dc7131caf97c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Top_Opacity
+    second: {fileID: 2800000, guid: 7da8594a998575045b6716d16756e347, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TheHacker_Top_Specular
+    second: {fileID: 2800000, guid: d28c1ee4e6ab7ae4d9475a5cd39bd68d, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

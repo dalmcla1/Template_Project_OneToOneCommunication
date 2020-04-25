@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 50957ea067590394ab51b1a0df92597b
+timeCreated: 1548920131
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: European Female_01_HandL
+    100006: European Female_01_HandR
+    100008: European Female_01_Head
+    100010: European Female_01_Shirt
+    100012: European Female_01_ShoeL
+    100014: European Female_01_ShoeR
+    100016: European Female_01_Torso
+    100018: European Female_01_Trousers
+    100020: Female_01_rig:Head
+    100022: Female_01_rig:HeadTop_End
+    100024: Female_01_rig:HeadTop_End_end
+    100026: Female_01_rig:Hips
+    100028: Female_01_rig:LeftArm
+    100030: Female_01_rig:LeftFoot
+    100032: Female_01_rig:LeftForeArm
+    100034: Female_01_rig:LeftHand
+    100036: Female_01_rig:LeftHandIndex1
+    100038: Female_01_rig:LeftHandIndex2
+    100040: Female_01_rig:LeftHandIndex3
+    100042: Female_01_rig:LeftHandIndex4
+    100044: Female_01_rig:LeftHandIndex4_end
+    100046: Female_01_rig:LeftHandMiddle1
+    100048: Female_01_rig:LeftHandMiddle2
+    100050: Female_01_rig:LeftHandMiddle3
+    100052: Female_01_rig:LeftHandMiddle4
+    100054: Female_01_rig:LeftHandMiddle4_end
+    100056: Female_01_rig:LeftHandPinky1
+    100058: Female_01_rig:LeftHandPinky2
+    100060: Female_01_rig:LeftHandPinky3
+    100062: Female_01_rig:LeftHandPinky4
+    100064: Female_01_rig:LeftHandPinky4_end
+    100066: Female_01_rig:LeftHandRing1
+    100068: Female_01_rig:LeftHandRing2
+    100070: Female_01_rig:LeftHandRing3
+    100072: Female_01_rig:LeftHandRing4
+    100074: Female_01_rig:LeftHandRing4_end
+    100076: Female_01_rig:LeftHandThumb1
+    100078: Female_01_rig:LeftHandThumb2
+    100080: Female_01_rig:LeftHandThumb3
+    100082: Female_01_rig:LeftHandThumb4
+    100084: Female_01_rig:LeftHandThumb4_end
+    100086: Female_01_rig:LeftLeg
+    100088: Female_01_rig:LeftShoulder
+    100090: Female_01_rig:LeftToe_End
+    100092: Female_01_rig:LeftToe_End_end
+    100094: Female_01_rig:LeftToeBase
+    100096: Female_01_rig:LeftUpLeg
+    100098: Female_01_rig:Neck
+    100100: Female_01_rig:RightArm
+    100102: Female_01_rig:RightFoot
+    100104: Female_01_rig:RightForeArm
+    100106: Female_01_rig:RightHand
+    100108: Female_01_rig:RightHandIndex1
+    100110: Female_01_rig:RightHandIndex2
+    100112: Female_01_rig:RightHandIndex3
+    100114: Female_01_rig:RightHandIndex4
+    100116: Female_01_rig:RightHandIndex4_end
+    100118: Female_01_rig:RightHandMiddle1
+    100120: Female_01_rig:RightHandMiddle2
+    100122: Female_01_rig:RightHandMiddle3
+    100124: Female_01_rig:RightHandMiddle4
+    100126: Female_01_rig:RightHandMiddle4_end
+    100128: Female_01_rig:RightHandPinky1
+    100130: Female_01_rig:RightHandPinky2
+    100132: Female_01_rig:RightHandPinky3
+    100134: Female_01_rig:RightHandPinky4
+    100136: Female_01_rig:RightHandPinky4_end
+    100138: Female_01_rig:RightHandRing1
+    100140: Female_01_rig:RightHandRing2
+    100142: Female_01_rig:RightHandRing3
+    100144: Female_01_rig:RightHandRing4
+    100146: Female_01_rig:RightHandRing4_end
+    100148: Female_01_rig:RightHandThumb1
+    100150: Female_01_rig:RightHandThumb2
+    100152: Female_01_rig:RightHandThumb3
+    100154: Female_01_rig:RightHandThumb4
+    100156: Female_01_rig:RightHandThumb4_end
+    100158: Female_01_rig:RightLeg
+    100160: Female_01_rig:RightShoulder
+    100162: Female_01_rig:RightToe_End
+    100164: Female_01_rig:RightToe_End_end
+    100166: Female_01_rig:RightToeBase
+    100168: Female_01_rig:RightUpLeg
+    100170: Female_01_rig:Spine
+    100172: Female_01_rig:Spine1
+    100174: Female_01_rig:Spine2
+    400000: Armature
+    400002: //RootNode
+    400004: European Female_01_HandL
+    400006: European Female_01_HandR
+    400008: European Female_01_Head
+    400010: European Female_01_Shirt
+    400012: European Female_01_ShoeL
+    400014: European Female_01_ShoeR
+    400016: European Female_01_Torso
+    400018: European Female_01_Trousers
+    400020: Female_01_rig:Head
+    400022: Female_01_rig:HeadTop_End
+    400024: Female_01_rig:HeadTop_End_end
+    400026: Female_01_rig:Hips
+    400028: Female_01_rig:LeftArm
+    400030: Female_01_rig:LeftFoot
+    400032: Female_01_rig:LeftForeArm
+    400034: Female_01_rig:LeftHand
+    400036: Female_01_rig:LeftHandIndex1
+    400038: Female_01_rig:LeftHandIndex2
+    400040: Female_01_rig:LeftHandIndex3
+    400042: Female_01_rig:LeftHandIndex4
+    400044: Female_01_rig:LeftHandIndex4_end
+    400046: Female_01_rig:LeftHandMiddle1
+    400048: Female_01_rig:LeftHandMiddle2
+    400050: Female_01_rig:LeftHandMiddle3
+    400052: Female_01_rig:LeftHandMiddle4
+    400054: Female_01_rig:LeftHandMiddle4_end
+    400056: Female_01_rig:LeftHandPinky1
+    400058: Female_01_rig:LeftHandPinky2
+    400060: Female_01_rig:LeftHandPinky3
+    400062: Female_01_rig:LeftHandPinky4
+    400064: Female_01_rig:LeftHandPinky4_end
+    400066: Female_01_rig:LeftHandRing1
+    400068: Female_01_rig:LeftHandRing2
+    400070: Female_01_rig:LeftHandRing3
+    400072: Female_01_rig:LeftHandRing4
+    400074: Female_01_rig:LeftHandRing4_end
+    400076: Female_01_rig:LeftHandThumb1
+    400078: Female_01_rig:LeftHandThumb2
+    400080: Female_01_rig:LeftHandThumb3
+    400082: Female_01_rig:LeftHandThumb4
+    400084: Female_01_rig:LeftHandThumb4_end
+    400086: Female_01_rig:LeftLeg
+    400088: Female_01_rig:LeftShoulder
+    400090: Female_01_rig:LeftToe_End
+    400092: Female_01_rig:LeftToe_End_end
+    400094: Female_01_rig:LeftToeBase
+    400096: Female_01_rig:LeftUpLeg
+    400098: Female_01_rig:Neck
+    400100: Female_01_rig:RightArm
+    400102: Female_01_rig:RightFoot
+    400104: Female_01_rig:RightForeArm
+    400106: Female_01_rig:RightHand
+    400108: Female_01_rig:RightHandIndex1
+    400110: Female_01_rig:RightHandIndex2
+    400112: Female_01_rig:RightHandIndex3
+    400114: Female_01_rig:RightHandIndex4
+    400116: Female_01_rig:RightHandIndex4_end
+    400118: Female_01_rig:RightHandMiddle1
+    400120: Female_01_rig:RightHandMiddle2
+    400122: Female_01_rig:RightHandMiddle3
+    400124: Female_01_rig:RightHandMiddle4
+    400126: Female_01_rig:RightHandMiddle4_end
+    400128: Female_01_rig:RightHandPinky1
+    400130: Female_01_rig:RightHandPinky2
+    400132: Female_01_rig:RightHandPinky3
+    400134: Female_01_rig:RightHandPinky4
+    400136: Female_01_rig:RightHandPinky4_end
+    400138: Female_01_rig:RightHandRing1
+    400140: Female_01_rig:RightHandRing2
+    400142: Female_01_rig:RightHandRing3
+    400144: Female_01_rig:RightHandRing4
+    400146: Female_01_rig:RightHandRing4_end
+    400148: Female_01_rig:RightHandThumb1
+    400150: Female_01_rig:RightHandThumb2
+    400152: Female_01_rig:RightHandThumb3
+    400154: Female_01_rig:RightHandThumb4
+    400156: Female_01_rig:RightHandThumb4_end
+    400158: Female_01_rig:RightLeg
+    400160: Female_01_rig:RightShoulder
+    400162: Female_01_rig:RightToe_End
+    400164: Female_01_rig:RightToe_End_end
+    400166: Female_01_rig:RightToeBase
+    400168: Female_01_rig:RightUpLeg
+    400170: Female_01_rig:Spine
+    400172: Female_01_rig:Spine1
+    400174: Female_01_rig:Spine2
+    4300000: European Female_01_ShoeR
+    4300002: European Female_01_ShoeL
+    4300004: European Female_01_HandR
+    4300006: European Female_01_Head
+    4300008: European Female_01_HandL
+    4300010: European Female_01_Torso
+    4300012: European Female_01_Shirt
+    4300014: European Female_01_Trousers
+    9500000: //RootNode
+    13700000: European Female_01_HandL
+    13700002: European Female_01_HandR
+    13700004: European Female_01_Head
+    13700006: European Female_01_Shirt
+    13700008: European Female_01_ShoeL
+    13700010: European Female_01_ShoeR
+    13700012: European Female_01_Torso
+    13700014: European Female_01_Trousers
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

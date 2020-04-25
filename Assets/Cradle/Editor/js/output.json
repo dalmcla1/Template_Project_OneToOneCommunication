@@ -1,0 +1,646 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Start",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Hallo, wie geht es dir?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Gut\",\"Gut\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Gut\",\"Gut\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Gut",
+                                "text": "\"Gut\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Gut",
+                                "text": "\"Gut\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Schlecht\",\"Schlecht\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Schlecht\",\"Schlecht\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Schlecht",
+                                "text": "\"Schlecht\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Schlecht",
+                                "text": "\"Schlecht\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Naja\",\"Naja\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Naja\",\"Naja\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Naja",
+                                "text": "\"Naja\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Naja",
+                                "text": "\"Naja\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Gut",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Na dann, hast du Lust auf Fussball?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ja\",\"Ja\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ja\",\"Ja\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ja",
+                                "text": "\"Ja\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Ja",
+                                "text": "\"Ja\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Nein\",\"Nein\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Nein\",\"Nein\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Nein",
+                                "text": "\"Nein\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Nein",
+                                "text": "\"Nein\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Später\",\"Später\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Später\",\"Später\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Später",
+                                "text": "\"Später\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Später",
+                                "text": "\"Später\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Schlecht",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Was ist den los?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Bin krank\",\"Bin krank\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Bin krank\",\"Bin krank\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Bin krank",
+                                "text": "\"Bin krank\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Bin krank",
+                                "text": "\"Bin krank\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Geht dich nichts an\",\"Geht dich nichts an\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Geht dich nichts an\",\"Geht dich nichts an\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Geht dich nichts an",
+                                "text": "\"Geht dich nichts an\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Geht dich nichts an",
+                                "text": "\"Geht dich nichts an\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Schlecht geschlafen\",\"Schlecht geschlafen\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Schlecht geschlafen\",\"Schlecht geschlafen\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Schlecht geschlafen",
+                                "text": "\"Schlecht geschlafen\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Schlecht geschlafen",
+                                "text": "\"Schlecht geschlafen\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Naja",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Was heisst das?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Etwas erkältet\",\"Etwas erkältet\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Etwas erkältet\",\"Etwas erkältet\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Etwas erkältet",
+                                "text": "\"Etwas erkältet\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Etwas erkältet",
+                                "text": "\"Etwas erkältet\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Die Ferien sind bald vorbei\",\"Die Ferien sind bald vorbei\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Die Ferien sind bald vorbei\",\"Die Ferien sind bald vorbei\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Die Ferien sind bald vorbei",
+                                "text": "\"Die Ferien sind bald vorbei\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Die Ferien sind bald vorbei",
+                                "text": "\"Die Ferien sind bald vorbei\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Ja",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Nein",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Später",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Bin krank",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Geht dich nichts an",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Schlecht geschlafen",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Etwas erkältet",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Die Ferien sind bald vorbei",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "link-goto:\"Start\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Start\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}
