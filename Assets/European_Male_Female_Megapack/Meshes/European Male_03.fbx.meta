@@ -1,245 +1,717 @@
 fileFormatVersion: 2
 guid: 6fbccd5a69e6ae948935f9b9687892e7
-timeCreated: 1548829295
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: //RootNode
-    100004: European Male_03_EyeL
-    100006: European Male_03_EyeR
-    100008: European Male_03_Face
-    100010: European Male_03_HandL
-    100012: European Male_03_HandR
-    100014: European Male_03_LwTeeth
-    100016: European Male_03_Pant
-    100018: European Male_03_Shirt
-    100020: European Male_03_ShoeL
-    100022: European Male_03_ShoeR
-    100024: European Male_03_UpTeeth
-    100026: Male_03_rig:Head
-    100028: Male_03_rig:HeadTop_End
-    100030: Male_03_rig:HeadTop_End_end
-    100032: Male_03_rig:HeadTop_End_end_end
-    100034: Male_03_rig:Hips
-    100036: Male_03_rig:LeftArm
-    100038: Male_03_rig:LeftFoot
-    100040: Male_03_rig:LeftForeArm
-    100042: Male_03_rig:LeftHand
-    100044: Male_03_rig:LeftHandIndex1
-    100046: Male_03_rig:LeftHandIndex2
-    100048: Male_03_rig:LeftHandIndex3
-    100050: Male_03_rig:LeftHandIndex4
-    100052: Male_03_rig:LeftHandIndex4_end
-    100054: Male_03_rig:LeftHandIndex4_end_end
-    100056: Male_03_rig:LeftHandMiddle1
-    100058: Male_03_rig:LeftHandMiddle2
-    100060: Male_03_rig:LeftHandMiddle3
-    100062: Male_03_rig:LeftHandMiddle4
-    100064: Male_03_rig:LeftHandMiddle4_end
-    100066: Male_03_rig:LeftHandMiddle4_end_end
-    100068: Male_03_rig:LeftHandPinky1
-    100070: Male_03_rig:LeftHandPinky2
-    100072: Male_03_rig:LeftHandPinky3
-    100074: Male_03_rig:LeftHandPinky4
-    100076: Male_03_rig:LeftHandPinky4_end
-    100078: Male_03_rig:LeftHandPinky4_end_end
-    100080: Male_03_rig:LeftHandRing1
-    100082: Male_03_rig:LeftHandRing2
-    100084: Male_03_rig:LeftHandRing3
-    100086: Male_03_rig:LeftHandRing4
-    100088: Male_03_rig:LeftHandRing4_end
-    100090: Male_03_rig:LeftHandRing4_end_end
-    100092: Male_03_rig:LeftHandThumb1
-    100094: Male_03_rig:LeftHandThumb2
-    100096: Male_03_rig:LeftHandThumb3
-    100098: Male_03_rig:LeftHandThumb4
-    100100: Male_03_rig:LeftHandThumb4_end
-    100102: Male_03_rig:LeftHandThumb4_end_end
-    100104: Male_03_rig:LeftLeg
-    100106: Male_03_rig:LeftShoulder
-    100108: Male_03_rig:LeftToe_End
-    100110: Male_03_rig:LeftToe_End_end
-    100112: Male_03_rig:LeftToe_End_end_end
-    100114: Male_03_rig:LeftToeBase
-    100116: Male_03_rig:LeftUpLeg
-    100118: Male_03_rig:Neck
-    100120: Male_03_rig:RightArm
-    100122: Male_03_rig:RightFoot
-    100124: Male_03_rig:RightForeArm
-    100126: Male_03_rig:RightHand
-    100128: Male_03_rig:RightHandIndex1
-    100130: Male_03_rig:RightHandIndex2
-    100132: Male_03_rig:RightHandIndex3
-    100134: Male_03_rig:RightHandIndex4
-    100136: Male_03_rig:RightHandIndex4_end
-    100138: Male_03_rig:RightHandIndex4_end_end
-    100140: Male_03_rig:RightHandMiddle1
-    100142: Male_03_rig:RightHandMiddle2
-    100144: Male_03_rig:RightHandMiddle3
-    100146: Male_03_rig:RightHandMiddle4
-    100148: Male_03_rig:RightHandMiddle4_end
-    100150: Male_03_rig:RightHandMiddle4_end_end
-    100152: Male_03_rig:RightHandPinky1
-    100154: Male_03_rig:RightHandPinky2
-    100156: Male_03_rig:RightHandPinky3
-    100158: Male_03_rig:RightHandPinky4
-    100160: Male_03_rig:RightHandPinky4_end
-    100162: Male_03_rig:RightHandPinky4_end_end
-    100164: Male_03_rig:RightHandRing1
-    100166: Male_03_rig:RightHandRing2
-    100168: Male_03_rig:RightHandRing3
-    100170: Male_03_rig:RightHandRing4
-    100172: Male_03_rig:RightHandRing4_end
-    100174: Male_03_rig:RightHandRing4_end_end
-    100176: Male_03_rig:RightHandThumb1
-    100178: Male_03_rig:RightHandThumb2
-    100180: Male_03_rig:RightHandThumb3
-    100182: Male_03_rig:RightHandThumb4
-    100184: Male_03_rig:RightHandThumb4_end
-    100186: Male_03_rig:RightHandThumb4_end_end
-    100188: Male_03_rig:RightLeg
-    100190: Male_03_rig:RightShoulder
-    100192: Male_03_rig:RightToe_End
-    100194: Male_03_rig:RightToe_End_end
-    100196: Male_03_rig:RightToe_End_end_end
-    100198: Male_03_rig:RightToeBase
-    100200: Male_03_rig:RightUpLeg
-    100202: Male_03_rig:Spine
-    100204: Male_03_rig:Spine1
-    100206: Male_03_rig:Spine2
-    400000: Armature
-    400002: //RootNode
-    400004: European Male_03_EyeL
-    400006: European Male_03_EyeR
-    400008: European Male_03_Face
-    400010: European Male_03_HandL
-    400012: European Male_03_HandR
-    400014: European Male_03_LwTeeth
-    400016: European Male_03_Pant
-    400018: European Male_03_Shirt
-    400020: European Male_03_ShoeL
-    400022: European Male_03_ShoeR
-    400024: European Male_03_UpTeeth
-    400026: Male_03_rig:Head
-    400028: Male_03_rig:HeadTop_End
-    400030: Male_03_rig:HeadTop_End_end
-    400032: Male_03_rig:HeadTop_End_end_end
-    400034: Male_03_rig:Hips
-    400036: Male_03_rig:LeftArm
-    400038: Male_03_rig:LeftFoot
-    400040: Male_03_rig:LeftForeArm
-    400042: Male_03_rig:LeftHand
-    400044: Male_03_rig:LeftHandIndex1
-    400046: Male_03_rig:LeftHandIndex2
-    400048: Male_03_rig:LeftHandIndex3
-    400050: Male_03_rig:LeftHandIndex4
-    400052: Male_03_rig:LeftHandIndex4_end
-    400054: Male_03_rig:LeftHandIndex4_end_end
-    400056: Male_03_rig:LeftHandMiddle1
-    400058: Male_03_rig:LeftHandMiddle2
-    400060: Male_03_rig:LeftHandMiddle3
-    400062: Male_03_rig:LeftHandMiddle4
-    400064: Male_03_rig:LeftHandMiddle4_end
-    400066: Male_03_rig:LeftHandMiddle4_end_end
-    400068: Male_03_rig:LeftHandPinky1
-    400070: Male_03_rig:LeftHandPinky2
-    400072: Male_03_rig:LeftHandPinky3
-    400074: Male_03_rig:LeftHandPinky4
-    400076: Male_03_rig:LeftHandPinky4_end
-    400078: Male_03_rig:LeftHandPinky4_end_end
-    400080: Male_03_rig:LeftHandRing1
-    400082: Male_03_rig:LeftHandRing2
-    400084: Male_03_rig:LeftHandRing3
-    400086: Male_03_rig:LeftHandRing4
-    400088: Male_03_rig:LeftHandRing4_end
-    400090: Male_03_rig:LeftHandRing4_end_end
-    400092: Male_03_rig:LeftHandThumb1
-    400094: Male_03_rig:LeftHandThumb2
-    400096: Male_03_rig:LeftHandThumb3
-    400098: Male_03_rig:LeftHandThumb4
-    400100: Male_03_rig:LeftHandThumb4_end
-    400102: Male_03_rig:LeftHandThumb4_end_end
-    400104: Male_03_rig:LeftLeg
-    400106: Male_03_rig:LeftShoulder
-    400108: Male_03_rig:LeftToe_End
-    400110: Male_03_rig:LeftToe_End_end
-    400112: Male_03_rig:LeftToe_End_end_end
-    400114: Male_03_rig:LeftToeBase
-    400116: Male_03_rig:LeftUpLeg
-    400118: Male_03_rig:Neck
-    400120: Male_03_rig:RightArm
-    400122: Male_03_rig:RightFoot
-    400124: Male_03_rig:RightForeArm
-    400126: Male_03_rig:RightHand
-    400128: Male_03_rig:RightHandIndex1
-    400130: Male_03_rig:RightHandIndex2
-    400132: Male_03_rig:RightHandIndex3
-    400134: Male_03_rig:RightHandIndex4
-    400136: Male_03_rig:RightHandIndex4_end
-    400138: Male_03_rig:RightHandIndex4_end_end
-    400140: Male_03_rig:RightHandMiddle1
-    400142: Male_03_rig:RightHandMiddle2
-    400144: Male_03_rig:RightHandMiddle3
-    400146: Male_03_rig:RightHandMiddle4
-    400148: Male_03_rig:RightHandMiddle4_end
-    400150: Male_03_rig:RightHandMiddle4_end_end
-    400152: Male_03_rig:RightHandPinky1
-    400154: Male_03_rig:RightHandPinky2
-    400156: Male_03_rig:RightHandPinky3
-    400158: Male_03_rig:RightHandPinky4
-    400160: Male_03_rig:RightHandPinky4_end
-    400162: Male_03_rig:RightHandPinky4_end_end
-    400164: Male_03_rig:RightHandRing1
-    400166: Male_03_rig:RightHandRing2
-    400168: Male_03_rig:RightHandRing3
-    400170: Male_03_rig:RightHandRing4
-    400172: Male_03_rig:RightHandRing4_end
-    400174: Male_03_rig:RightHandRing4_end_end
-    400176: Male_03_rig:RightHandThumb1
-    400178: Male_03_rig:RightHandThumb2
-    400180: Male_03_rig:RightHandThumb3
-    400182: Male_03_rig:RightHandThumb4
-    400184: Male_03_rig:RightHandThumb4_end
-    400186: Male_03_rig:RightHandThumb4_end_end
-    400188: Male_03_rig:RightLeg
-    400190: Male_03_rig:RightShoulder
-    400192: Male_03_rig:RightToe_End
-    400194: Male_03_rig:RightToe_End_end
-    400196: Male_03_rig:RightToe_End_end_end
-    400198: Male_03_rig:RightToeBase
-    400200: Male_03_rig:RightUpLeg
-    400202: Male_03_rig:Spine
-    400204: Male_03_rig:Spine1
-    400206: Male_03_rig:Spine2
-    4300000: European Male_03_EyeR
-    4300002: European Male_03_UpTeeth
-    4300004: European Male_03_LwTeeth
-    4300006: European Male_03_ShoeL
-    4300008: European Male_03_Pant
-    4300010: European Male_03_Shirt
-    4300012: European Male_03_Face
-    4300014: European Male_03_HandL
-    4300016: European Male_03_ShoeR
-    4300018: European Male_03_EyeL
-    4300020: European Male_03_HandR
-    9500000: //RootNode
-    13700000: European Male_03_EyeL
-    13700002: European Male_03_EyeR
-    13700004: European Male_03_Face
-    13700006: European Male_03_HandL
-    13700008: European Male_03_HandR
-    13700010: European Male_03_LwTeeth
-    13700012: European Male_03_Pant
-    13700014: European Male_03_Shirt
-    13700016: European Male_03_ShoeL
-    13700018: European Male_03_ShoeR
-    13700020: European Male_03_UpTeeth
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: European Male_03_EyeL
+  - first:
+      1: 100006
+    second: European Male_03_EyeR
+  - first:
+      1: 100008
+    second: European Male_03_Face
+  - first:
+      1: 100010
+    second: European Male_03_HandL
+  - first:
+      1: 100012
+    second: European Male_03_HandR
+  - first:
+      1: 100014
+    second: European Male_03_LwTeeth
+  - first:
+      1: 100016
+    second: European Male_03_Pant
+  - first:
+      1: 100018
+    second: European Male_03_Shirt
+  - first:
+      1: 100020
+    second: European Male_03_ShoeL
+  - first:
+      1: 100022
+    second: European Male_03_ShoeR
+  - first:
+      1: 100024
+    second: European Male_03_UpTeeth
+  - first:
+      1: 100026
+    second: Male_03_rig:Head
+  - first:
+      1: 100028
+    second: Male_03_rig:HeadTop_End
+  - first:
+      1: 100030
+    second: Male_03_rig:HeadTop_End_end
+  - first:
+      1: 100032
+    second: Male_03_rig:HeadTop_End_end_end
+  - first:
+      1: 100034
+    second: Male_03_rig:Hips
+  - first:
+      1: 100036
+    second: Male_03_rig:LeftArm
+  - first:
+      1: 100038
+    second: Male_03_rig:LeftFoot
+  - first:
+      1: 100040
+    second: Male_03_rig:LeftForeArm
+  - first:
+      1: 100042
+    second: Male_03_rig:LeftHand
+  - first:
+      1: 100044
+    second: Male_03_rig:LeftHandIndex1
+  - first:
+      1: 100046
+    second: Male_03_rig:LeftHandIndex2
+  - first:
+      1: 100048
+    second: Male_03_rig:LeftHandIndex3
+  - first:
+      1: 100050
+    second: Male_03_rig:LeftHandIndex4
+  - first:
+      1: 100052
+    second: Male_03_rig:LeftHandIndex4_end
+  - first:
+      1: 100054
+    second: Male_03_rig:LeftHandIndex4_end_end
+  - first:
+      1: 100056
+    second: Male_03_rig:LeftHandMiddle1
+  - first:
+      1: 100058
+    second: Male_03_rig:LeftHandMiddle2
+  - first:
+      1: 100060
+    second: Male_03_rig:LeftHandMiddle3
+  - first:
+      1: 100062
+    second: Male_03_rig:LeftHandMiddle4
+  - first:
+      1: 100064
+    second: Male_03_rig:LeftHandMiddle4_end
+  - first:
+      1: 100066
+    second: Male_03_rig:LeftHandMiddle4_end_end
+  - first:
+      1: 100068
+    second: Male_03_rig:LeftHandPinky1
+  - first:
+      1: 100070
+    second: Male_03_rig:LeftHandPinky2
+  - first:
+      1: 100072
+    second: Male_03_rig:LeftHandPinky3
+  - first:
+      1: 100074
+    second: Male_03_rig:LeftHandPinky4
+  - first:
+      1: 100076
+    second: Male_03_rig:LeftHandPinky4_end
+  - first:
+      1: 100078
+    second: Male_03_rig:LeftHandPinky4_end_end
+  - first:
+      1: 100080
+    second: Male_03_rig:LeftHandRing1
+  - first:
+      1: 100082
+    second: Male_03_rig:LeftHandRing2
+  - first:
+      1: 100084
+    second: Male_03_rig:LeftHandRing3
+  - first:
+      1: 100086
+    second: Male_03_rig:LeftHandRing4
+  - first:
+      1: 100088
+    second: Male_03_rig:LeftHandRing4_end
+  - first:
+      1: 100090
+    second: Male_03_rig:LeftHandRing4_end_end
+  - first:
+      1: 100092
+    second: Male_03_rig:LeftHandThumb1
+  - first:
+      1: 100094
+    second: Male_03_rig:LeftHandThumb2
+  - first:
+      1: 100096
+    second: Male_03_rig:LeftHandThumb3
+  - first:
+      1: 100098
+    second: Male_03_rig:LeftHandThumb4
+  - first:
+      1: 100100
+    second: Male_03_rig:LeftHandThumb4_end
+  - first:
+      1: 100102
+    second: Male_03_rig:LeftHandThumb4_end_end
+  - first:
+      1: 100104
+    second: Male_03_rig:LeftLeg
+  - first:
+      1: 100106
+    second: Male_03_rig:LeftShoulder
+  - first:
+      1: 100108
+    second: Male_03_rig:LeftToe_End
+  - first:
+      1: 100110
+    second: Male_03_rig:LeftToe_End_end
+  - first:
+      1: 100112
+    second: Male_03_rig:LeftToe_End_end_end
+  - first:
+      1: 100114
+    second: Male_03_rig:LeftToeBase
+  - first:
+      1: 100116
+    second: Male_03_rig:LeftUpLeg
+  - first:
+      1: 100118
+    second: Male_03_rig:Neck
+  - first:
+      1: 100120
+    second: Male_03_rig:RightArm
+  - first:
+      1: 100122
+    second: Male_03_rig:RightFoot
+  - first:
+      1: 100124
+    second: Male_03_rig:RightForeArm
+  - first:
+      1: 100126
+    second: Male_03_rig:RightHand
+  - first:
+      1: 100128
+    second: Male_03_rig:RightHandIndex1
+  - first:
+      1: 100130
+    second: Male_03_rig:RightHandIndex2
+  - first:
+      1: 100132
+    second: Male_03_rig:RightHandIndex3
+  - first:
+      1: 100134
+    second: Male_03_rig:RightHandIndex4
+  - first:
+      1: 100136
+    second: Male_03_rig:RightHandIndex4_end
+  - first:
+      1: 100138
+    second: Male_03_rig:RightHandIndex4_end_end
+  - first:
+      1: 100140
+    second: Male_03_rig:RightHandMiddle1
+  - first:
+      1: 100142
+    second: Male_03_rig:RightHandMiddle2
+  - first:
+      1: 100144
+    second: Male_03_rig:RightHandMiddle3
+  - first:
+      1: 100146
+    second: Male_03_rig:RightHandMiddle4
+  - first:
+      1: 100148
+    second: Male_03_rig:RightHandMiddle4_end
+  - first:
+      1: 100150
+    second: Male_03_rig:RightHandMiddle4_end_end
+  - first:
+      1: 100152
+    second: Male_03_rig:RightHandPinky1
+  - first:
+      1: 100154
+    second: Male_03_rig:RightHandPinky2
+  - first:
+      1: 100156
+    second: Male_03_rig:RightHandPinky3
+  - first:
+      1: 100158
+    second: Male_03_rig:RightHandPinky4
+  - first:
+      1: 100160
+    second: Male_03_rig:RightHandPinky4_end
+  - first:
+      1: 100162
+    second: Male_03_rig:RightHandPinky4_end_end
+  - first:
+      1: 100164
+    second: Male_03_rig:RightHandRing1
+  - first:
+      1: 100166
+    second: Male_03_rig:RightHandRing2
+  - first:
+      1: 100168
+    second: Male_03_rig:RightHandRing3
+  - first:
+      1: 100170
+    second: Male_03_rig:RightHandRing4
+  - first:
+      1: 100172
+    second: Male_03_rig:RightHandRing4_end
+  - first:
+      1: 100174
+    second: Male_03_rig:RightHandRing4_end_end
+  - first:
+      1: 100176
+    second: Male_03_rig:RightHandThumb1
+  - first:
+      1: 100178
+    second: Male_03_rig:RightHandThumb2
+  - first:
+      1: 100180
+    second: Male_03_rig:RightHandThumb3
+  - first:
+      1: 100182
+    second: Male_03_rig:RightHandThumb4
+  - first:
+      1: 100184
+    second: Male_03_rig:RightHandThumb4_end
+  - first:
+      1: 100186
+    second: Male_03_rig:RightHandThumb4_end_end
+  - first:
+      1: 100188
+    second: Male_03_rig:RightLeg
+  - first:
+      1: 100190
+    second: Male_03_rig:RightShoulder
+  - first:
+      1: 100192
+    second: Male_03_rig:RightToe_End
+  - first:
+      1: 100194
+    second: Male_03_rig:RightToe_End_end
+  - first:
+      1: 100196
+    second: Male_03_rig:RightToe_End_end_end
+  - first:
+      1: 100198
+    second: Male_03_rig:RightToeBase
+  - first:
+      1: 100200
+    second: Male_03_rig:RightUpLeg
+  - first:
+      1: 100202
+    second: Male_03_rig:Spine
+  - first:
+      1: 100204
+    second: Male_03_rig:Spine1
+  - first:
+      1: 100206
+    second: Male_03_rig:Spine2
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: European Male_03_EyeL
+  - first:
+      4: 400006
+    second: European Male_03_EyeR
+  - first:
+      4: 400008
+    second: European Male_03_Face
+  - first:
+      4: 400010
+    second: European Male_03_HandL
+  - first:
+      4: 400012
+    second: European Male_03_HandR
+  - first:
+      4: 400014
+    second: European Male_03_LwTeeth
+  - first:
+      4: 400016
+    second: European Male_03_Pant
+  - first:
+      4: 400018
+    second: European Male_03_Shirt
+  - first:
+      4: 400020
+    second: European Male_03_ShoeL
+  - first:
+      4: 400022
+    second: European Male_03_ShoeR
+  - first:
+      4: 400024
+    second: European Male_03_UpTeeth
+  - first:
+      4: 400026
+    second: Male_03_rig:Head
+  - first:
+      4: 400028
+    second: Male_03_rig:HeadTop_End
+  - first:
+      4: 400030
+    second: Male_03_rig:HeadTop_End_end
+  - first:
+      4: 400032
+    second: Male_03_rig:HeadTop_End_end_end
+  - first:
+      4: 400034
+    second: Male_03_rig:Hips
+  - first:
+      4: 400036
+    second: Male_03_rig:LeftArm
+  - first:
+      4: 400038
+    second: Male_03_rig:LeftFoot
+  - first:
+      4: 400040
+    second: Male_03_rig:LeftForeArm
+  - first:
+      4: 400042
+    second: Male_03_rig:LeftHand
+  - first:
+      4: 400044
+    second: Male_03_rig:LeftHandIndex1
+  - first:
+      4: 400046
+    second: Male_03_rig:LeftHandIndex2
+  - first:
+      4: 400048
+    second: Male_03_rig:LeftHandIndex3
+  - first:
+      4: 400050
+    second: Male_03_rig:LeftHandIndex4
+  - first:
+      4: 400052
+    second: Male_03_rig:LeftHandIndex4_end
+  - first:
+      4: 400054
+    second: Male_03_rig:LeftHandIndex4_end_end
+  - first:
+      4: 400056
+    second: Male_03_rig:LeftHandMiddle1
+  - first:
+      4: 400058
+    second: Male_03_rig:LeftHandMiddle2
+  - first:
+      4: 400060
+    second: Male_03_rig:LeftHandMiddle3
+  - first:
+      4: 400062
+    second: Male_03_rig:LeftHandMiddle4
+  - first:
+      4: 400064
+    second: Male_03_rig:LeftHandMiddle4_end
+  - first:
+      4: 400066
+    second: Male_03_rig:LeftHandMiddle4_end_end
+  - first:
+      4: 400068
+    second: Male_03_rig:LeftHandPinky1
+  - first:
+      4: 400070
+    second: Male_03_rig:LeftHandPinky2
+  - first:
+      4: 400072
+    second: Male_03_rig:LeftHandPinky3
+  - first:
+      4: 400074
+    second: Male_03_rig:LeftHandPinky4
+  - first:
+      4: 400076
+    second: Male_03_rig:LeftHandPinky4_end
+  - first:
+      4: 400078
+    second: Male_03_rig:LeftHandPinky4_end_end
+  - first:
+      4: 400080
+    second: Male_03_rig:LeftHandRing1
+  - first:
+      4: 400082
+    second: Male_03_rig:LeftHandRing2
+  - first:
+      4: 400084
+    second: Male_03_rig:LeftHandRing3
+  - first:
+      4: 400086
+    second: Male_03_rig:LeftHandRing4
+  - first:
+      4: 400088
+    second: Male_03_rig:LeftHandRing4_end
+  - first:
+      4: 400090
+    second: Male_03_rig:LeftHandRing4_end_end
+  - first:
+      4: 400092
+    second: Male_03_rig:LeftHandThumb1
+  - first:
+      4: 400094
+    second: Male_03_rig:LeftHandThumb2
+  - first:
+      4: 400096
+    second: Male_03_rig:LeftHandThumb3
+  - first:
+      4: 400098
+    second: Male_03_rig:LeftHandThumb4
+  - first:
+      4: 400100
+    second: Male_03_rig:LeftHandThumb4_end
+  - first:
+      4: 400102
+    second: Male_03_rig:LeftHandThumb4_end_end
+  - first:
+      4: 400104
+    second: Male_03_rig:LeftLeg
+  - first:
+      4: 400106
+    second: Male_03_rig:LeftShoulder
+  - first:
+      4: 400108
+    second: Male_03_rig:LeftToe_End
+  - first:
+      4: 400110
+    second: Male_03_rig:LeftToe_End_end
+  - first:
+      4: 400112
+    second: Male_03_rig:LeftToe_End_end_end
+  - first:
+      4: 400114
+    second: Male_03_rig:LeftToeBase
+  - first:
+      4: 400116
+    second: Male_03_rig:LeftUpLeg
+  - first:
+      4: 400118
+    second: Male_03_rig:Neck
+  - first:
+      4: 400120
+    second: Male_03_rig:RightArm
+  - first:
+      4: 400122
+    second: Male_03_rig:RightFoot
+  - first:
+      4: 400124
+    second: Male_03_rig:RightForeArm
+  - first:
+      4: 400126
+    second: Male_03_rig:RightHand
+  - first:
+      4: 400128
+    second: Male_03_rig:RightHandIndex1
+  - first:
+      4: 400130
+    second: Male_03_rig:RightHandIndex2
+  - first:
+      4: 400132
+    second: Male_03_rig:RightHandIndex3
+  - first:
+      4: 400134
+    second: Male_03_rig:RightHandIndex4
+  - first:
+      4: 400136
+    second: Male_03_rig:RightHandIndex4_end
+  - first:
+      4: 400138
+    second: Male_03_rig:RightHandIndex4_end_end
+  - first:
+      4: 400140
+    second: Male_03_rig:RightHandMiddle1
+  - first:
+      4: 400142
+    second: Male_03_rig:RightHandMiddle2
+  - first:
+      4: 400144
+    second: Male_03_rig:RightHandMiddle3
+  - first:
+      4: 400146
+    second: Male_03_rig:RightHandMiddle4
+  - first:
+      4: 400148
+    second: Male_03_rig:RightHandMiddle4_end
+  - first:
+      4: 400150
+    second: Male_03_rig:RightHandMiddle4_end_end
+  - first:
+      4: 400152
+    second: Male_03_rig:RightHandPinky1
+  - first:
+      4: 400154
+    second: Male_03_rig:RightHandPinky2
+  - first:
+      4: 400156
+    second: Male_03_rig:RightHandPinky3
+  - first:
+      4: 400158
+    second: Male_03_rig:RightHandPinky4
+  - first:
+      4: 400160
+    second: Male_03_rig:RightHandPinky4_end
+  - first:
+      4: 400162
+    second: Male_03_rig:RightHandPinky4_end_end
+  - first:
+      4: 400164
+    second: Male_03_rig:RightHandRing1
+  - first:
+      4: 400166
+    second: Male_03_rig:RightHandRing2
+  - first:
+      4: 400168
+    second: Male_03_rig:RightHandRing3
+  - first:
+      4: 400170
+    second: Male_03_rig:RightHandRing4
+  - first:
+      4: 400172
+    second: Male_03_rig:RightHandRing4_end
+  - first:
+      4: 400174
+    second: Male_03_rig:RightHandRing4_end_end
+  - first:
+      4: 400176
+    second: Male_03_rig:RightHandThumb1
+  - first:
+      4: 400178
+    second: Male_03_rig:RightHandThumb2
+  - first:
+      4: 400180
+    second: Male_03_rig:RightHandThumb3
+  - first:
+      4: 400182
+    second: Male_03_rig:RightHandThumb4
+  - first:
+      4: 400184
+    second: Male_03_rig:RightHandThumb4_end
+  - first:
+      4: 400186
+    second: Male_03_rig:RightHandThumb4_end_end
+  - first:
+      4: 400188
+    second: Male_03_rig:RightLeg
+  - first:
+      4: 400190
+    second: Male_03_rig:RightShoulder
+  - first:
+      4: 400192
+    second: Male_03_rig:RightToe_End
+  - first:
+      4: 400194
+    second: Male_03_rig:RightToe_End_end
+  - first:
+      4: 400196
+    second: Male_03_rig:RightToe_End_end_end
+  - first:
+      4: 400198
+    second: Male_03_rig:RightToeBase
+  - first:
+      4: 400200
+    second: Male_03_rig:RightUpLeg
+  - first:
+      4: 400202
+    second: Male_03_rig:Spine
+  - first:
+      4: 400204
+    second: Male_03_rig:Spine1
+  - first:
+      4: 400206
+    second: Male_03_rig:Spine2
+  - first:
+      43: 4300000
+    second: European Male_03_EyeR
+  - first:
+      43: 4300002
+    second: European Male_03_UpTeeth
+  - first:
+      43: 4300004
+    second: European Male_03_LwTeeth
+  - first:
+      43: 4300006
+    second: European Male_03_ShoeL
+  - first:
+      43: 4300008
+    second: European Male_03_Pant
+  - first:
+      43: 4300010
+    second: European Male_03_Shirt
+  - first:
+      43: 4300012
+    second: European Male_03_Face
+  - first:
+      43: 4300014
+    second: European Male_03_HandL
+  - first:
+      43: 4300016
+    second: European Male_03_ShoeR
+  - first:
+      43: 4300018
+    second: European Male_03_EyeL
+  - first:
+      43: 4300020
+    second: European Male_03_HandR
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: European Male_03_EyeL
+  - first:
+      137: 13700002
+    second: European Male_03_EyeR
+  - first:
+      137: 13700004
+    second: European Male_03_Face
+  - first:
+      137: 13700006
+    second: European Male_03_HandL
+  - first:
+      137: 13700008
+    second: European Male_03_HandR
+  - first:
+      137: 13700010
+    second: European Male_03_LwTeeth
+  - first:
+      137: 13700012
+    second: European Male_03_Pant
+  - first:
+      137: 13700014
+    second: European Male_03_Shirt
+  - first:
+      137: 13700016
+    second: European Male_03_ShoeL
+  - first:
+      137: 13700018
+    second: European Male_03_ShoeR
+  - first:
+      137: 13700020
+    second: European Male_03_UpTeeth
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Male_03_Clothes
+    second: {fileID: 2100000, guid: 4ac0eb5acdba3424c95a3c46da6209b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Male_03_Skin
+    second: {fileID: 2100000, guid: 2af7fad7c70ae13499d071c7e36844c5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -252,26 +724,39 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -281,10 +766,15 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -294,13 +784,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.25
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

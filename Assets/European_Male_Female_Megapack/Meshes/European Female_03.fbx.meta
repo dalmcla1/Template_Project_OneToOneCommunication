@@ -1,204 +1,594 @@
 fileFormatVersion: 2
 guid: 3303466dd33e26c41943cbfcba4349d7
-timeCreated: 1548920173
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: //RootNode
-    100004: European Female_03_HandL
-    100006: European Female_03_HandR
-    100008: European Female_03_Head
-    100010: European Female_03_Shirt
-    100012: European Female_03_ShoeL
-    100014: European Female_03_ShoeR
-    100016: European Female_03_Trousers
-    100018: Female_03_rig:Head
-    100020: Female_03_rig:HeadTop_End
-    100022: Female_03_rig:HeadTop_End_end
-    100024: Female_03_rig:Hips
-    100026: Female_03_rig:LeftArm
-    100028: Female_03_rig:LeftFoot
-    100030: Female_03_rig:LeftForeArm
-    100032: Female_03_rig:LeftHand
-    100034: Female_03_rig:LeftHandIndex1
-    100036: Female_03_rig:LeftHandIndex2
-    100038: Female_03_rig:LeftHandIndex3
-    100040: Female_03_rig:LeftHandIndex4
-    100042: Female_03_rig:LeftHandIndex4_end
-    100044: Female_03_rig:LeftHandMiddle1
-    100046: Female_03_rig:LeftHandMiddle2
-    100048: Female_03_rig:LeftHandMiddle3
-    100050: Female_03_rig:LeftHandMiddle4
-    100052: Female_03_rig:LeftHandMiddle4_end
-    100054: Female_03_rig:LeftHandPinky1
-    100056: Female_03_rig:LeftHandPinky2
-    100058: Female_03_rig:LeftHandPinky3
-    100060: Female_03_rig:LeftHandPinky4
-    100062: Female_03_rig:LeftHandPinky4_end
-    100064: Female_03_rig:LeftHandRing1
-    100066: Female_03_rig:LeftHandRing2
-    100068: Female_03_rig:LeftHandRing3
-    100070: Female_03_rig:LeftHandRing4
-    100072: Female_03_rig:LeftHandRing4_end
-    100074: Female_03_rig:LeftHandThumb1
-    100076: Female_03_rig:LeftHandThumb2
-    100078: Female_03_rig:LeftHandThumb3
-    100080: Female_03_rig:LeftHandThumb4
-    100082: Female_03_rig:LeftHandThumb4_end
-    100084: Female_03_rig:LeftLeg
-    100086: Female_03_rig:LeftShoulder
-    100088: Female_03_rig:LeftToe_End
-    100090: Female_03_rig:LeftToe_End_end
-    100092: Female_03_rig:LeftToeBase
-    100094: Female_03_rig:LeftUpLeg
-    100096: Female_03_rig:Neck
-    100098: Female_03_rig:RightArm
-    100100: Female_03_rig:RightFoot
-    100102: Female_03_rig:RightForeArm
-    100104: Female_03_rig:RightHand
-    100106: Female_03_rig:RightHandIndex1
-    100108: Female_03_rig:RightHandIndex2
-    100110: Female_03_rig:RightHandIndex3
-    100112: Female_03_rig:RightHandIndex4
-    100114: Female_03_rig:RightHandIndex4_end
-    100116: Female_03_rig:RightHandMiddle1
-    100118: Female_03_rig:RightHandMiddle2
-    100120: Female_03_rig:RightHandMiddle3
-    100122: Female_03_rig:RightHandMiddle4
-    100124: Female_03_rig:RightHandMiddle4_end
-    100126: Female_03_rig:RightHandPinky1
-    100128: Female_03_rig:RightHandPinky2
-    100130: Female_03_rig:RightHandPinky3
-    100132: Female_03_rig:RightHandPinky4
-    100134: Female_03_rig:RightHandPinky4_end
-    100136: Female_03_rig:RightHandRing1
-    100138: Female_03_rig:RightHandRing2
-    100140: Female_03_rig:RightHandRing3
-    100142: Female_03_rig:RightHandRing4
-    100144: Female_03_rig:RightHandRing4_end
-    100146: Female_03_rig:RightHandThumb1
-    100148: Female_03_rig:RightHandThumb2
-    100150: Female_03_rig:RightHandThumb3
-    100152: Female_03_rig:RightHandThumb4
-    100154: Female_03_rig:RightHandThumb4_end
-    100156: Female_03_rig:RightLeg
-    100158: Female_03_rig:RightShoulder
-    100160: Female_03_rig:RightToe_End
-    100162: Female_03_rig:RightToe_End_end
-    100164: Female_03_rig:RightToeBase
-    100166: Female_03_rig:RightUpLeg
-    100168: Female_03_rig:Spine
-    100170: Female_03_rig:Spine1
-    100172: Female_03_rig:Spine2
-    400000: Armature
-    400002: //RootNode
-    400004: European Female_03_HandL
-    400006: European Female_03_HandR
-    400008: European Female_03_Head
-    400010: European Female_03_Shirt
-    400012: European Female_03_ShoeL
-    400014: European Female_03_ShoeR
-    400016: European Female_03_Trousers
-    400018: Female_03_rig:Head
-    400020: Female_03_rig:HeadTop_End
-    400022: Female_03_rig:HeadTop_End_end
-    400024: Female_03_rig:Hips
-    400026: Female_03_rig:LeftArm
-    400028: Female_03_rig:LeftFoot
-    400030: Female_03_rig:LeftForeArm
-    400032: Female_03_rig:LeftHand
-    400034: Female_03_rig:LeftHandIndex1
-    400036: Female_03_rig:LeftHandIndex2
-    400038: Female_03_rig:LeftHandIndex3
-    400040: Female_03_rig:LeftHandIndex4
-    400042: Female_03_rig:LeftHandIndex4_end
-    400044: Female_03_rig:LeftHandMiddle1
-    400046: Female_03_rig:LeftHandMiddle2
-    400048: Female_03_rig:LeftHandMiddle3
-    400050: Female_03_rig:LeftHandMiddle4
-    400052: Female_03_rig:LeftHandMiddle4_end
-    400054: Female_03_rig:LeftHandPinky1
-    400056: Female_03_rig:LeftHandPinky2
-    400058: Female_03_rig:LeftHandPinky3
-    400060: Female_03_rig:LeftHandPinky4
-    400062: Female_03_rig:LeftHandPinky4_end
-    400064: Female_03_rig:LeftHandRing1
-    400066: Female_03_rig:LeftHandRing2
-    400068: Female_03_rig:LeftHandRing3
-    400070: Female_03_rig:LeftHandRing4
-    400072: Female_03_rig:LeftHandRing4_end
-    400074: Female_03_rig:LeftHandThumb1
-    400076: Female_03_rig:LeftHandThumb2
-    400078: Female_03_rig:LeftHandThumb3
-    400080: Female_03_rig:LeftHandThumb4
-    400082: Female_03_rig:LeftHandThumb4_end
-    400084: Female_03_rig:LeftLeg
-    400086: Female_03_rig:LeftShoulder
-    400088: Female_03_rig:LeftToe_End
-    400090: Female_03_rig:LeftToe_End_end
-    400092: Female_03_rig:LeftToeBase
-    400094: Female_03_rig:LeftUpLeg
-    400096: Female_03_rig:Neck
-    400098: Female_03_rig:RightArm
-    400100: Female_03_rig:RightFoot
-    400102: Female_03_rig:RightForeArm
-    400104: Female_03_rig:RightHand
-    400106: Female_03_rig:RightHandIndex1
-    400108: Female_03_rig:RightHandIndex2
-    400110: Female_03_rig:RightHandIndex3
-    400112: Female_03_rig:RightHandIndex4
-    400114: Female_03_rig:RightHandIndex4_end
-    400116: Female_03_rig:RightHandMiddle1
-    400118: Female_03_rig:RightHandMiddle2
-    400120: Female_03_rig:RightHandMiddle3
-    400122: Female_03_rig:RightHandMiddle4
-    400124: Female_03_rig:RightHandMiddle4_end
-    400126: Female_03_rig:RightHandPinky1
-    400128: Female_03_rig:RightHandPinky2
-    400130: Female_03_rig:RightHandPinky3
-    400132: Female_03_rig:RightHandPinky4
-    400134: Female_03_rig:RightHandPinky4_end
-    400136: Female_03_rig:RightHandRing1
-    400138: Female_03_rig:RightHandRing2
-    400140: Female_03_rig:RightHandRing3
-    400142: Female_03_rig:RightHandRing4
-    400144: Female_03_rig:RightHandRing4_end
-    400146: Female_03_rig:RightHandThumb1
-    400148: Female_03_rig:RightHandThumb2
-    400150: Female_03_rig:RightHandThumb3
-    400152: Female_03_rig:RightHandThumb4
-    400154: Female_03_rig:RightHandThumb4_end
-    400156: Female_03_rig:RightLeg
-    400158: Female_03_rig:RightShoulder
-    400160: Female_03_rig:RightToe_End
-    400162: Female_03_rig:RightToe_End_end
-    400164: Female_03_rig:RightToeBase
-    400166: Female_03_rig:RightUpLeg
-    400168: Female_03_rig:Spine
-    400170: Female_03_rig:Spine1
-    400172: Female_03_rig:Spine2
-    4300000: European Female_03_ShoeR
-    4300002: European Female_03_ShoeL
-    4300004: European Female_03_HandL
-    4300006: European Female_03_HandR
-    4300008: European Female_03_Trousers
-    4300010: European Female_03_Shirt
-    4300012: European Female_03_Head
-    7400000: Armature|Armature|Female_03|Layer0
-    9500000: //RootNode
-    13700000: European Female_03_HandL
-    13700002: European Female_03_HandR
-    13700004: European Female_03_Head
-    13700006: European Female_03_Shirt
-    13700008: European Female_03_ShoeL
-    13700010: European Female_03_ShoeR
-    13700012: European Female_03_Trousers
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: European Female_03_HandL
+  - first:
+      1: 100006
+    second: European Female_03_HandR
+  - first:
+      1: 100008
+    second: European Female_03_Head
+  - first:
+      1: 100010
+    second: European Female_03_Shirt
+  - first:
+      1: 100012
+    second: European Female_03_ShoeL
+  - first:
+      1: 100014
+    second: European Female_03_ShoeR
+  - first:
+      1: 100016
+    second: European Female_03_Trousers
+  - first:
+      1: 100018
+    second: Female_03_rig:Head
+  - first:
+      1: 100020
+    second: Female_03_rig:HeadTop_End
+  - first:
+      1: 100022
+    second: Female_03_rig:HeadTop_End_end
+  - first:
+      1: 100024
+    second: Female_03_rig:Hips
+  - first:
+      1: 100026
+    second: Female_03_rig:LeftArm
+  - first:
+      1: 100028
+    second: Female_03_rig:LeftFoot
+  - first:
+      1: 100030
+    second: Female_03_rig:LeftForeArm
+  - first:
+      1: 100032
+    second: Female_03_rig:LeftHand
+  - first:
+      1: 100034
+    second: Female_03_rig:LeftHandIndex1
+  - first:
+      1: 100036
+    second: Female_03_rig:LeftHandIndex2
+  - first:
+      1: 100038
+    second: Female_03_rig:LeftHandIndex3
+  - first:
+      1: 100040
+    second: Female_03_rig:LeftHandIndex4
+  - first:
+      1: 100042
+    second: Female_03_rig:LeftHandIndex4_end
+  - first:
+      1: 100044
+    second: Female_03_rig:LeftHandMiddle1
+  - first:
+      1: 100046
+    second: Female_03_rig:LeftHandMiddle2
+  - first:
+      1: 100048
+    second: Female_03_rig:LeftHandMiddle3
+  - first:
+      1: 100050
+    second: Female_03_rig:LeftHandMiddle4
+  - first:
+      1: 100052
+    second: Female_03_rig:LeftHandMiddle4_end
+  - first:
+      1: 100054
+    second: Female_03_rig:LeftHandPinky1
+  - first:
+      1: 100056
+    second: Female_03_rig:LeftHandPinky2
+  - first:
+      1: 100058
+    second: Female_03_rig:LeftHandPinky3
+  - first:
+      1: 100060
+    second: Female_03_rig:LeftHandPinky4
+  - first:
+      1: 100062
+    second: Female_03_rig:LeftHandPinky4_end
+  - first:
+      1: 100064
+    second: Female_03_rig:LeftHandRing1
+  - first:
+      1: 100066
+    second: Female_03_rig:LeftHandRing2
+  - first:
+      1: 100068
+    second: Female_03_rig:LeftHandRing3
+  - first:
+      1: 100070
+    second: Female_03_rig:LeftHandRing4
+  - first:
+      1: 100072
+    second: Female_03_rig:LeftHandRing4_end
+  - first:
+      1: 100074
+    second: Female_03_rig:LeftHandThumb1
+  - first:
+      1: 100076
+    second: Female_03_rig:LeftHandThumb2
+  - first:
+      1: 100078
+    second: Female_03_rig:LeftHandThumb3
+  - first:
+      1: 100080
+    second: Female_03_rig:LeftHandThumb4
+  - first:
+      1: 100082
+    second: Female_03_rig:LeftHandThumb4_end
+  - first:
+      1: 100084
+    second: Female_03_rig:LeftLeg
+  - first:
+      1: 100086
+    second: Female_03_rig:LeftShoulder
+  - first:
+      1: 100088
+    second: Female_03_rig:LeftToe_End
+  - first:
+      1: 100090
+    second: Female_03_rig:LeftToe_End_end
+  - first:
+      1: 100092
+    second: Female_03_rig:LeftToeBase
+  - first:
+      1: 100094
+    second: Female_03_rig:LeftUpLeg
+  - first:
+      1: 100096
+    second: Female_03_rig:Neck
+  - first:
+      1: 100098
+    second: Female_03_rig:RightArm
+  - first:
+      1: 100100
+    second: Female_03_rig:RightFoot
+  - first:
+      1: 100102
+    second: Female_03_rig:RightForeArm
+  - first:
+      1: 100104
+    second: Female_03_rig:RightHand
+  - first:
+      1: 100106
+    second: Female_03_rig:RightHandIndex1
+  - first:
+      1: 100108
+    second: Female_03_rig:RightHandIndex2
+  - first:
+      1: 100110
+    second: Female_03_rig:RightHandIndex3
+  - first:
+      1: 100112
+    second: Female_03_rig:RightHandIndex4
+  - first:
+      1: 100114
+    second: Female_03_rig:RightHandIndex4_end
+  - first:
+      1: 100116
+    second: Female_03_rig:RightHandMiddle1
+  - first:
+      1: 100118
+    second: Female_03_rig:RightHandMiddle2
+  - first:
+      1: 100120
+    second: Female_03_rig:RightHandMiddle3
+  - first:
+      1: 100122
+    second: Female_03_rig:RightHandMiddle4
+  - first:
+      1: 100124
+    second: Female_03_rig:RightHandMiddle4_end
+  - first:
+      1: 100126
+    second: Female_03_rig:RightHandPinky1
+  - first:
+      1: 100128
+    second: Female_03_rig:RightHandPinky2
+  - first:
+      1: 100130
+    second: Female_03_rig:RightHandPinky3
+  - first:
+      1: 100132
+    second: Female_03_rig:RightHandPinky4
+  - first:
+      1: 100134
+    second: Female_03_rig:RightHandPinky4_end
+  - first:
+      1: 100136
+    second: Female_03_rig:RightHandRing1
+  - first:
+      1: 100138
+    second: Female_03_rig:RightHandRing2
+  - first:
+      1: 100140
+    second: Female_03_rig:RightHandRing3
+  - first:
+      1: 100142
+    second: Female_03_rig:RightHandRing4
+  - first:
+      1: 100144
+    second: Female_03_rig:RightHandRing4_end
+  - first:
+      1: 100146
+    second: Female_03_rig:RightHandThumb1
+  - first:
+      1: 100148
+    second: Female_03_rig:RightHandThumb2
+  - first:
+      1: 100150
+    second: Female_03_rig:RightHandThumb3
+  - first:
+      1: 100152
+    second: Female_03_rig:RightHandThumb4
+  - first:
+      1: 100154
+    second: Female_03_rig:RightHandThumb4_end
+  - first:
+      1: 100156
+    second: Female_03_rig:RightLeg
+  - first:
+      1: 100158
+    second: Female_03_rig:RightShoulder
+  - first:
+      1: 100160
+    second: Female_03_rig:RightToe_End
+  - first:
+      1: 100162
+    second: Female_03_rig:RightToe_End_end
+  - first:
+      1: 100164
+    second: Female_03_rig:RightToeBase
+  - first:
+      1: 100166
+    second: Female_03_rig:RightUpLeg
+  - first:
+      1: 100168
+    second: Female_03_rig:Spine
+  - first:
+      1: 100170
+    second: Female_03_rig:Spine1
+  - first:
+      1: 100172
+    second: Female_03_rig:Spine2
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: European Female_03_HandL
+  - first:
+      4: 400006
+    second: European Female_03_HandR
+  - first:
+      4: 400008
+    second: European Female_03_Head
+  - first:
+      4: 400010
+    second: European Female_03_Shirt
+  - first:
+      4: 400012
+    second: European Female_03_ShoeL
+  - first:
+      4: 400014
+    second: European Female_03_ShoeR
+  - first:
+      4: 400016
+    second: European Female_03_Trousers
+  - first:
+      4: 400018
+    second: Female_03_rig:Head
+  - first:
+      4: 400020
+    second: Female_03_rig:HeadTop_End
+  - first:
+      4: 400022
+    second: Female_03_rig:HeadTop_End_end
+  - first:
+      4: 400024
+    second: Female_03_rig:Hips
+  - first:
+      4: 400026
+    second: Female_03_rig:LeftArm
+  - first:
+      4: 400028
+    second: Female_03_rig:LeftFoot
+  - first:
+      4: 400030
+    second: Female_03_rig:LeftForeArm
+  - first:
+      4: 400032
+    second: Female_03_rig:LeftHand
+  - first:
+      4: 400034
+    second: Female_03_rig:LeftHandIndex1
+  - first:
+      4: 400036
+    second: Female_03_rig:LeftHandIndex2
+  - first:
+      4: 400038
+    second: Female_03_rig:LeftHandIndex3
+  - first:
+      4: 400040
+    second: Female_03_rig:LeftHandIndex4
+  - first:
+      4: 400042
+    second: Female_03_rig:LeftHandIndex4_end
+  - first:
+      4: 400044
+    second: Female_03_rig:LeftHandMiddle1
+  - first:
+      4: 400046
+    second: Female_03_rig:LeftHandMiddle2
+  - first:
+      4: 400048
+    second: Female_03_rig:LeftHandMiddle3
+  - first:
+      4: 400050
+    second: Female_03_rig:LeftHandMiddle4
+  - first:
+      4: 400052
+    second: Female_03_rig:LeftHandMiddle4_end
+  - first:
+      4: 400054
+    second: Female_03_rig:LeftHandPinky1
+  - first:
+      4: 400056
+    second: Female_03_rig:LeftHandPinky2
+  - first:
+      4: 400058
+    second: Female_03_rig:LeftHandPinky3
+  - first:
+      4: 400060
+    second: Female_03_rig:LeftHandPinky4
+  - first:
+      4: 400062
+    second: Female_03_rig:LeftHandPinky4_end
+  - first:
+      4: 400064
+    second: Female_03_rig:LeftHandRing1
+  - first:
+      4: 400066
+    second: Female_03_rig:LeftHandRing2
+  - first:
+      4: 400068
+    second: Female_03_rig:LeftHandRing3
+  - first:
+      4: 400070
+    second: Female_03_rig:LeftHandRing4
+  - first:
+      4: 400072
+    second: Female_03_rig:LeftHandRing4_end
+  - first:
+      4: 400074
+    second: Female_03_rig:LeftHandThumb1
+  - first:
+      4: 400076
+    second: Female_03_rig:LeftHandThumb2
+  - first:
+      4: 400078
+    second: Female_03_rig:LeftHandThumb3
+  - first:
+      4: 400080
+    second: Female_03_rig:LeftHandThumb4
+  - first:
+      4: 400082
+    second: Female_03_rig:LeftHandThumb4_end
+  - first:
+      4: 400084
+    second: Female_03_rig:LeftLeg
+  - first:
+      4: 400086
+    second: Female_03_rig:LeftShoulder
+  - first:
+      4: 400088
+    second: Female_03_rig:LeftToe_End
+  - first:
+      4: 400090
+    second: Female_03_rig:LeftToe_End_end
+  - first:
+      4: 400092
+    second: Female_03_rig:LeftToeBase
+  - first:
+      4: 400094
+    second: Female_03_rig:LeftUpLeg
+  - first:
+      4: 400096
+    second: Female_03_rig:Neck
+  - first:
+      4: 400098
+    second: Female_03_rig:RightArm
+  - first:
+      4: 400100
+    second: Female_03_rig:RightFoot
+  - first:
+      4: 400102
+    second: Female_03_rig:RightForeArm
+  - first:
+      4: 400104
+    second: Female_03_rig:RightHand
+  - first:
+      4: 400106
+    second: Female_03_rig:RightHandIndex1
+  - first:
+      4: 400108
+    second: Female_03_rig:RightHandIndex2
+  - first:
+      4: 400110
+    second: Female_03_rig:RightHandIndex3
+  - first:
+      4: 400112
+    second: Female_03_rig:RightHandIndex4
+  - first:
+      4: 400114
+    second: Female_03_rig:RightHandIndex4_end
+  - first:
+      4: 400116
+    second: Female_03_rig:RightHandMiddle1
+  - first:
+      4: 400118
+    second: Female_03_rig:RightHandMiddle2
+  - first:
+      4: 400120
+    second: Female_03_rig:RightHandMiddle3
+  - first:
+      4: 400122
+    second: Female_03_rig:RightHandMiddle4
+  - first:
+      4: 400124
+    second: Female_03_rig:RightHandMiddle4_end
+  - first:
+      4: 400126
+    second: Female_03_rig:RightHandPinky1
+  - first:
+      4: 400128
+    second: Female_03_rig:RightHandPinky2
+  - first:
+      4: 400130
+    second: Female_03_rig:RightHandPinky3
+  - first:
+      4: 400132
+    second: Female_03_rig:RightHandPinky4
+  - first:
+      4: 400134
+    second: Female_03_rig:RightHandPinky4_end
+  - first:
+      4: 400136
+    second: Female_03_rig:RightHandRing1
+  - first:
+      4: 400138
+    second: Female_03_rig:RightHandRing2
+  - first:
+      4: 400140
+    second: Female_03_rig:RightHandRing3
+  - first:
+      4: 400142
+    second: Female_03_rig:RightHandRing4
+  - first:
+      4: 400144
+    second: Female_03_rig:RightHandRing4_end
+  - first:
+      4: 400146
+    second: Female_03_rig:RightHandThumb1
+  - first:
+      4: 400148
+    second: Female_03_rig:RightHandThumb2
+  - first:
+      4: 400150
+    second: Female_03_rig:RightHandThumb3
+  - first:
+      4: 400152
+    second: Female_03_rig:RightHandThumb4
+  - first:
+      4: 400154
+    second: Female_03_rig:RightHandThumb4_end
+  - first:
+      4: 400156
+    second: Female_03_rig:RightLeg
+  - first:
+      4: 400158
+    second: Female_03_rig:RightShoulder
+  - first:
+      4: 400160
+    second: Female_03_rig:RightToe_End
+  - first:
+      4: 400162
+    second: Female_03_rig:RightToe_End_end
+  - first:
+      4: 400164
+    second: Female_03_rig:RightToeBase
+  - first:
+      4: 400166
+    second: Female_03_rig:RightUpLeg
+  - first:
+      4: 400168
+    second: Female_03_rig:Spine
+  - first:
+      4: 400170
+    second: Female_03_rig:Spine1
+  - first:
+      4: 400172
+    second: Female_03_rig:Spine2
+  - first:
+      43: 4300000
+    second: European Female_03_ShoeR
+  - first:
+      43: 4300002
+    second: European Female_03_ShoeL
+  - first:
+      43: 4300004
+    second: European Female_03_HandL
+  - first:
+      43: 4300006
+    second: European Female_03_HandR
+  - first:
+      43: 4300008
+    second: European Female_03_Trousers
+  - first:
+      43: 4300010
+    second: European Female_03_Shirt
+  - first:
+      43: 4300012
+    second: European Female_03_Head
+  - first:
+      74: 7400000
+    second: Armature|Armature|Female_03|Layer0
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: European Female_03_HandL
+  - first:
+      137: 13700002
+    second: European Female_03_HandR
+  - first:
+      137: 13700004
+    second: European Female_03_Head
+  - first:
+      137: 13700006
+    second: European Female_03_Shirt
+  - first:
+      137: 13700008
+    second: European Female_03_ShoeL
+  - first:
+      137: 13700010
+    second: European Female_03_ShoeR
+  - first:
+      137: 13700012
+    second: European Female_03_Trousers
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Female_03_Clothes
+    second: {fileID: 2100000, guid: 5b7095faebb0b124aa67fb5ebbab279a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Female_03_Face
+    second: {fileID: 2100000, guid: c89bb5bf2e6a9ff4ab909d889d9cf23c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -211,26 +601,39 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -240,12 +643,878 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human: []
-    skeleton: []
+    serializedVersion: 3
+    human:
+    - boneName: Female_03_rig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Female_03_rig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: European Female_03(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: European Female_03(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:Hips
+      parentName: Armature
+      position: {x: -0.000000014582276, y: 0.008591011, z: -0.000011670254}
+      rotation: {x: 0.00000023402538, y: -0.0000004602857, z: 0.000017471995, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Female_03_rig:Spine
+      parentName: Female_03_rig:Hips
+      position: {x: 2.101652e-14, y: 0.0008007439, z: 0.000010775885}
+      rotation: {x: 0.0067279823, y: 0.00000037397717, z: -0.000017474908, w: 0.9999774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:Spine1
+      parentName: Female_03_rig:Spine
+      position: {x: 1.216139e-15, y: 0.0009342849, z: 4.4676866e-12}
+      rotation: {x: -0.0000000013969846, y: 1.5020288e-10, z: 0.000000021920037, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Female_03_rig:Spine2
+      parentName: Female_03_rig:Spine1
+      position: {x: 2.0369484e-15, y: 0.0010677531, z: -5.9631406e-12}
+      rotation: {x: 0.0000000065192594, y: -1.5023585e-10, z: -0.000000026472076,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:Neck
+      parentName: Female_03_rig:Spine2
+      position: {x: 2.0312427e-13, y: 0.0012012247, z: -2.0864288e-11}
+      rotation: {x: -0.006728221, y: -4.6706097e-11, z: 0.000000001863229, w: 0.9999774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:Head
+      parentName: Female_03_rig:Neck
+      position: {x: 1.3833557e-14, y: 0.0005995033, z: 0.00006249097}
+      rotation: {x: -1.2318159e-18, y: 2.503806e-18, z: 0.0000000018626448, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:HeadTop_End
+      parentName: Female_03_rig:Head
+      position: {x: -1.4821921e-15, y: 0.0018038648, z: 0.00018803083}
+      rotation: {x: 1.9168753e-18, y: 7.6908276e-19, z: -1.3574626e-18, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Female_03_rig:HeadTop_End_end
+      parentName: Female_03_rig:HeadTop_End
+      position: {x: -0, y: 0.001813638, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftShoulder
+      parentName: Female_03_rig:Spine2
+      position: {x: -0.00057360955, y: 0.001089855, z: 0.0000015209406}
+      rotation: {x: 0.54829687, y: -0.44680542, z: 0.5467902, w: 0.44805798}
+      scale: {x: 0.9999997, y: 0.99999964, z: 0.99999994}
+    - name: Female_03_rig:LeftArm
+      parentName: Female_03_rig:LeftShoulder
+      position: {x: 1.6018745e-11, y: 0.0011686785, z: 0.0000000010084361}
+      rotation: {x: -0.100133486, y: 0.00029079177, z: 0.0013625979, w: 0.99497306}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Female_03_rig:LeftForeArm
+      parentName: Female_03_rig:LeftArm
+      position: {x: 1.121807e-11, y: 0.001988418, z: -9.196869e-10}
+      rotation: {x: 0.000000030835732, y: 0.00082046277, z: -0.0000002967637, w: 0.9999997}
+      scale: {x: 1, y: 0.99999976, z: 1.0000001}
+    - name: Female_03_rig:LeftHand
+      parentName: Female_03_rig:LeftForeArm
+      position: {x: -1.509834e-11, y: 0.0018105698, z: -7.1921963e-10}
+      rotation: {x: -0.010504566, y: -0.00096081867, z: 0.0564602, w: 0.99834913}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Female_03_rig:LeftHandThumb1
+      parentName: Female_03_rig:LeftHand
+      position: {x: 0.00021249377, y: 0.00013200266, z: 0.000078644065}
+      rotation: {x: 0.043334194, y: -0.07689866, z: -0.44596148, w: 0.8906891}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Female_03_rig:LeftHandThumb2
+      parentName: Female_03_rig:LeftHandThumb1
+      position: {x: -0.000018302344, y: 0.00020898246, z: -4.172325e-10}
+      rotation: {x: 0.000061425926, y: -0.0038875109, z: 0.07113771, w: 0.99745893}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Female_03_rig:LeftHandThumb3
+      parentName: Female_03_rig:LeftHandThumb2
+      position: {x: 0.000013007544, y: 0.00023608144, z: 8.34465e-10}
+      rotation: {x: -0.00018297529, y: -0.0045668487, z: -0.015018008, w: 0.9998768}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Female_03_rig:LeftHandThumb4
+      parentName: Female_03_rig:LeftHandThumb3
+      position: {x: 0.000005295944, y: 0.00021172302, z: 7.390975e-10}
+      rotation: {x: -0.000000055879344, y: 0.000000074505806, z: -0.000000040978186,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Female_03_rig:LeftHandThumb4_end
+      parentName: Female_03_rig:LeftHandThumb4
+      position: {x: -0, y: 0.00021178661, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandIndex1
+      parentName: Female_03_rig:LeftHand
+      position: {x: 0.00023509256, y: 0.0005643387, z: 0.000009106797}
+      rotation: {x: 0.010430112, y: -0.0003462977, z: -0.05610239, w: 0.99837047}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Female_03_rig:LeftHandIndex2
+      parentName: Female_03_rig:LeftHandIndex1
+      position: {x: 0.0000001954831, y: 0.00026190787, z: 0.000000001254957}
+      rotation: {x: -0.00000040261475, y: -0.0000055777905, z: -0.000936554, w: 0.9999996}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Female_03_rig:LeftHandIndex3
+      parentName: Female_03_rig:LeftHandIndex2
+      position: {x: -0.0000002718292, y: 0.00024142658, z: 3.1586966e-10}
+      rotation: {x: 0.0000008888557, y: 0.000009017662, z: 0.000738403, w: 0.99999976}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999999}
+    - name: Female_03_rig:LeftHandIndex4
+      parentName: Female_03_rig:LeftHandIndex3
+      position: {x: 0.000000076287236, y: 0.00022251175, z: 1.7056008e-10}
+      rotation: {x: -0.00000007443747, y: 7.0933402e-12, z: 0.0000000042636827, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Female_03_rig:LeftHandIndex4_end
+      parentName: Female_03_rig:LeftHandIndex4
+      position: {x: -0, y: 0.00022251064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandMiddle1
+      parentName: Female_03_rig:LeftHand
+      position: {x: 0.0000629515, y: 0.00055463606, z: 0.000011647067}
+      rotation: {x: 0.010168902, y: -0.004933199, z: -0.055962607, w: 0.9983689}
+      scale: {x: 1.0000001, y: 0.9999997, z: 0.9999999}
+    - name: Female_03_rig:LeftHandMiddle2
+      parentName: Female_03_rig:LeftHandMiddle1
+      position: {x: 0.00000032891035, y: 0.00029514363, z: -1.2391829e-10}
+      rotation: {x: 0.00000028346483, y: 0.000015844818, z: -0.0007416137, w: 0.99999976}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandMiddle3
+      parentName: Female_03_rig:LeftHandMiddle2
+      position: {x: -0.00000010057836, y: 0.00027393093, z: 0.0000000012505275}
+      rotation: {x: -0.00000017860104, y: -0.000012823949, z: -0.00027322225, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: Female_03_rig:LeftHandMiddle4
+      parentName: Female_03_rig:LeftHandMiddle3
+      position: {x: -0.00000022834091, y: 0.00024957972, z: -7.1641984e-11}
+      rotation: {x: -0.00000013083935, y: 8.960408e-10, z: -0.0000000028335883, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: Female_03_rig:LeftHandMiddle4_end
+      parentName: Female_03_rig:LeftHandMiddle4
+      position: {x: -0, y: 0.00024958048, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandRing1
+      parentName: Female_03_rig:LeftHand
+      position: {x: -0.00009620126, y: 0.00053727924, z: 0.000011897623}
+      rotation: {x: 0.009757168, y: -0.012234963, z: -0.056598578, w: 0.9982744}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Female_03_rig:LeftHandRing2
+      parentName: Female_03_rig:LeftHandRing1
+      position: {x: -0.00000000156131, y: 0.00025707207, z: -3.182678e-10}
+      rotation: {x: 0.00000024930017, y: -0.0000008651165, z: -0.000010828919, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Female_03_rig:LeftHandRing3
+      parentName: Female_03_rig:LeftHandRing2
+      position: {x: -0.000000007557543, y: 0.00024086997, z: 1.6556587e-10}
+      rotation: {x: 0.000004288264, y: -0.00000033268518, z: 0.00003826114, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Female_03_rig:LeftHandRing4
+      parentName: Female_03_rig:LeftHandRing3
+      position: {x: 0.000000009094877, y: 0.00022352448, z: 3.835972e-10}
+      rotation: {x: -0.0000034354634, y: 0.0000000028712266, z: -0.00000016666074,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandRing4_end
+      parentName: Female_03_rig:LeftHandRing4
+      position: {x: -0, y: 0.00022352519, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandPinky1
+      parentName: Female_03_rig:LeftHand
+      position: {x: -0.00020184301, y: 0.00044793577, z: 0.000012479208}
+      rotation: {x: 0.009544329, y: -0.016089667, z: -0.0570319, w: 0.9981971}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Female_03_rig:LeftHandPinky2
+      parentName: Female_03_rig:LeftHandPinky1
+      position: {x: -0.00000018215624, y: 0.00022770876, z: 6.5169294e-11}
+      rotation: {x: 0.000005882798, y: 0.000002563269, z: 0.00086723734, w: 0.99999964}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Female_03_rig:LeftHandPinky3
+      parentName: Female_03_rig:LeftHandPinky2
+      position: {x: 0.00000016638897, y: 0.00017956784, z: -4.1858145e-10}
+      rotation: {x: -0.0000052015407, y: -0.000008999887, z: -0.00042225857, w: 0.99999994}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Female_03_rig:LeftHandPinky4
+      parentName: Female_03_rig:LeftHandPinky3
+      position: {x: 0.000000015748665, y: 0.00017039033, z: -0.0000000015304541}
+      rotation: {x: -0.00000036173347, y: -0.00000007542641, z: 0.0000006164286, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftHandPinky4_end
+      parentName: Female_03_rig:LeftHandPinky4
+      position: {x: -0, y: 0.0001703901, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightShoulder
+      parentName: Female_03_rig:Spine2
+      position: {x: 0.00057360955, y: 0.0010898545, z: 0.0000014765026}
+      rotation: {x: 0.54827476, y: 0.44682443, z: -0.54681027, w: 0.44804174}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: Female_03_rig:RightArm
+      parentName: Female_03_rig:RightShoulder
+      position: {x: -7.4505804e-13, y: 0.0011686784, z: -2.8591601e-11}
+      rotation: {x: -0.100132525, y: 0.0005348943, z: -0.0014077292, w: 0.994973}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: Female_03_rig:RightForeArm
+      parentName: Female_03_rig:RightArm
+      position: {x: 1.0935764e-12, y: 0.0019884126, z: 0.0000000010824761}
+      rotation: {x: 0.0000005796382, y: -0.0010765567, z: 0.00000037918986, w: 0.99999946}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Female_03_rig:RightHand
+      parentName: Female_03_rig:RightForeArm
+      position: {x: -6.9694576e-13, y: 0.0018123112, z: -4.4452025e-10}
+      rotation: {x: -0.0090387445, y: -0.0050782496, z: -0.056558967, w: 0.99834543}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Female_03_rig:RightHandThumb1
+      parentName: Female_03_rig:RightHand
+      position: {x: -0.00019970423, y: 0.00014269789, z: 0.000071372946}
+      rotation: {x: 0.05043247, y: 0.0701213, z: 0.46915236, w: 0.8788832}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: Female_03_rig:RightHandThumb2
+      parentName: Female_03_rig:RightHandThumb1
+      position: {x: 0.000028811142, y: 0.00020245159, z: 0.0000000010967253}
+      rotation: {x: 0.00017919182, y: 0.0065771453, z: -0.1137743, w: 0.99348485}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.99999964}
+    - name: Female_03_rig:RightHandThumb3
+      parentName: Female_03_rig:RightHandThumb2
+      position: {x: -0.000020869325, y: 0.00024013793, z: -0.0000000010728836}
+      rotation: {x: -0.00028118718, y: 0.0046170787, z: 0.025642117, w: 0.9996605}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Female_03_rig:RightHandThumb4
+      parentName: Female_03_rig:RightHandThumb3
+      position: {x: -0.000007941246, y: 0.00022419803, z: 7.152557e-10}
+      rotation: {x: 0.00000004097819, y: -0.00000019744037, z: -0.00000020116566,
+        w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Female_03_rig:RightHandThumb4_end
+      parentName: Female_03_rig:RightHandThumb4
+      position: {x: -0, y: 0.00022433719, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightHandIndex1
+      parentName: Female_03_rig:RightHand
+      position: {x: -0.00023050832, y: 0.0005697823, z: 0.0000058753635}
+      rotation: {x: 0.009305931, y: 0.0003622136, z: 0.05654848, w: 0.99835646}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: Female_03_rig:RightHandIndex2
+      parentName: Female_03_rig:RightHandIndex1
+      position: {x: 0.000000016361753, y: 0.00026907725, z: 8.936039e-10}
+      rotation: {x: -0.00000130034, y: 0.0000038471176, z: 0.00018706376, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Female_03_rig:RightHandIndex3
+      parentName: Female_03_rig:RightHandIndex2
+      position: {x: 0.000000109104434, y: 0.00025053063, z: 0.0000000010394491}
+      rotation: {x: 0.00000016214526, y: 0.0000022097452, z: -0.00049234735, w: 0.9999999}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: Female_03_rig:RightHandIndex4
+      parentName: Female_03_rig:RightHandIndex3
+      position: {x: -0.00000012543984, y: 0.00022906857, z: -2.7944333e-10}
+      rotation: {x: 0.00000015202407, y: -0.000000006542998, z: 0.000000016585872,
+        w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Female_03_rig:RightHandIndex4_end
+      parentName: Female_03_rig:RightHandIndex4
+      position: {x: -0, y: 0.00022906873, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightHandMiddle1
+      parentName: Female_03_rig:RightHand
+      position: {x: -0.000065264496, y: 0.00057459134, z: 0.000010769485}
+      rotation: {x: 0.009136607, y: 0.003347252, z: 0.056518372, w: 0.9983542}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999999}
+    - name: Female_03_rig:RightHandMiddle2
+      parentName: Female_03_rig:RightHandMiddle1
+      position: {x: -0.000000014755642, y: 0.0003012339, z: 3.3352987e-10}
+      rotation: {x: -0.00000046337527, y: 0.00000012553103, z: 0.00005644478, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Female_03_rig:RightHandMiddle3
+      parentName: Female_03_rig:RightHandMiddle2
+      position: {x: 0.000000018564238, y: 0.0002778037, z: -3.9837317e-11}
+      rotation: {x: 0.0000000580198, y: -0.0000003617078, z: -0.00004114477, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: Female_03_rig:RightHandMiddle4
+      parentName: Female_03_rig:RightHandMiddle3
+      position: {x: -0.0000000037180141, y: 0.00026060682, z: 2.4889596e-11}
+      rotation: {x: -0.00000017319573, y: -0.00000004377357, z: -0.000000048891547,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Female_03_rig:RightHandMiddle4_end
+      parentName: Female_03_rig:RightHandMiddle4
+      position: {x: -0, y: 0.00026060702, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightHandRing1
+      parentName: Female_03_rig:RightHand
+      position: {x: 0.00009676296, y: 0.0005770888, z: 0.0000005929336}
+      rotation: {x: 0.009139223, y: 0.0032963834, z: 0.056425583, w: 0.99835956}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: Female_03_rig:RightHandRing2
+      parentName: Female_03_rig:RightHandRing1
+      position: {x: -0.000000060925444, y: 0.00025464693, z: -7.566064e-10}
+      rotation: {x: 0.0000012775772, y: -0.0000026928699, z: -0.0000807228, w: 1}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999998}
+    - name: Female_03_rig:RightHandRing3
+      parentName: Female_03_rig:RightHandRing2
+      position: {x: -0.000000093837826, y: 0.00023906626, z: 6.8899236e-10}
+      rotation: {x: -0.0000009276432, y: -0.000009129646, z: 0.0005503644, w: 0.9999999}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Female_03_rig:RightHandRing4
+      parentName: Female_03_rig:RightHandRing3
+      position: {x: 0.0000001549415, y: 0.00022048985, z: 0.0000000013743526}
+      rotation: {x: -0.00000029036167, y: -0.000000029689472, z: -0.00000024658382,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightHandRing4_end
+      parentName: Female_03_rig:RightHandRing4
+      position: {x: -0, y: 0.00022049046, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightHandPinky1
+      parentName: Female_03_rig:RightHand
+      position: {x: 0.00019900959, y: 0.00046864653, z: 0.00000994111}
+      rotation: {x: 0.008873417, y: 0.008034434, z: 0.057026427, w: 0.9983009}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+    - name: Female_03_rig:RightHandPinky2
+      parentName: Female_03_rig:RightHandPinky1
+      position: {x: 0.0000001943983, y: 0.00022088825, z: -6.89039e-10}
+      rotation: {x: -0.00000024916048, y: 0.000008540312, z: -0.0005862579, w: 0.9999998}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: Female_03_rig:RightHandPinky3
+      parentName: Female_03_rig:RightHandPinky2
+      position: {x: -0.000000053874956, y: 0.00019127612, z: -2.0712614e-10}
+      rotation: {x: 0.0000012289298, y: -0.000005267522, z: -0.00025689692, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+    - name: Female_03_rig:RightHandPinky4
+      parentName: Female_03_rig:RightHandPinky3
+      position: {x: -0.00000014072954, y: 0.00017473109, z: -1.0151416e-11}
+      rotation: {x: -0.0000013266495, y: -0.0000000033906802, z: 0.0000017142276,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: Female_03_rig:RightHandPinky4_end
+      parentName: Female_03_rig:RightHandPinky4
+      position: {x: -0, y: 0.0001747324, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:LeftUpLeg
+      parentName: Female_03_rig:Hips
+      position: {x: -0.00092371297, y: -0.00044441276, z: 0.000008329367}
+      rotation: {x: 0.004454851, y: -0.008743871, z: 0.9999494, w: -0.0022290114}
+      scale: {x: 1.0000086, y: 1.0000002, z: 1.0000083}
+    - name: Female_03_rig:LeftLeg
+      parentName: Female_03_rig:LeftUpLeg
+      position: {x: -8.568167e-11, y: 0.003799489, z: -1.04308125e-11}
+      rotation: {x: -0.015198304, y: -0.00009994349, z: -0.0044391165, w: 0.99987465}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: Female_03_rig:LeftFoot
+      parentName: Female_03_rig:LeftLeg
+      position: {x: 3.6135313e-11, y: 0.0035535777, z: 1.04308125e-11}
+      rotation: {x: 0.522542, y: 0.03630901, z: -0.0844714, w: 0.8476415}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: Female_03_rig:LeftToeBase
+      parentName: Female_03_rig:LeftFoot
+      position: {x: 1.594424e-10, y: 0.0014698498, z: 5.066395e-11}
+      rotation: {x: 0.25198895, y: 0.025750231, z: -0.0067079905, w: 0.96736425}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+    - name: Female_03_rig:LeftToe_End
+      parentName: Female_03_rig:LeftToeBase
+      position: {x: 2.3096797e-11, y: 0.00063284446, z: -1.1920929e-11}
+      rotation: {x: 0.00000009662471, y: -0.00000012871169, z: -0.0000000049913065,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Female_03_rig:LeftToe_End_end
+      parentName: Female_03_rig:LeftToe_End
+      position: {x: -0, y: 0.0006328514, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Female_03_rig:RightUpLeg
+      parentName: Female_03_rig:Hips
+      position: {x: 0.0009237131, y: -0.00044441322, z: -0.000016416168}
+      rotation: {x: -0.0040047304, y: -0.0013365878, z: 0.9999886, w: 0.002231782}
+      scale: {x: 1.0000048, y: 1, z: 1.0000037}
+    - name: Female_03_rig:RightLeg
+      parentName: Female_03_rig:RightUpLeg
+      position: {x: -2.705492e-11, y: 0.0037962946, z: 0}
+      rotation: {x: -0.027010966, y: 0.000068754955, z: 0.004356263, w: 0.9996257}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: Female_03_rig:RightFoot
+      parentName: Female_03_rig:RightLeg
+      position: {x: -9.2200934e-11, y: 0.0035579263, z: -1.7136332e-11}
+      rotation: {x: 0.52803236, y: -0.03497145, z: 0.084179014, w: 0.8443179}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: Female_03_rig:RightToeBase
+      parentName: Female_03_rig:RightFoot
+      position: {x: 1.7657875e-10, y: 0.0014809069, z: 1.2814996e-10}
+      rotation: {x: 0.25001475, y: -0.024031125, z: 0.006207143, w: 0.9679239}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Female_03_rig:RightToe_End
+      parentName: Female_03_rig:RightToeBase
+      position: {x: -1.9371508e-11, y: 0.0006481873, z: -6.705522e-12}
+      rotation: {x: -0.00000001990702, y: 0.00000010589429, z: 0.0000000072468542,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Female_03_rig:RightToe_End_end
+      parentName: Female_03_rig:RightToe_End
+      position: {x: -0, y: 0.00064819085, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: European Female_03_ShoeR
+      parentName: European Female_03(Clone)
+      position: {x: -0.000006822202, y: 0.00041062685, z: 0.001338849}
+      rotation: {x: -0.49070004, y: -0.5091301, z: -0.4906994, w: 0.5091308}
+      scale: {x: 100.000015, y: 100.00001, z: 100}
+    - name: European Female_03_ShoeL
+      parentName: European Female_03(Clone)
+      position: {x: -0.000006827604, y: 0.00041062717, z: -0.0022575548}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100.00002, y: 100, z: 100.00001}
+    - name: European Female_03_HandL
+      parentName: European Female_03(Clone)
+      position: {x: -0.00032948982, y: 0.0122218635, z: -0.006560599}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100, y: 100, z: 100}
+    - name: European Female_03_HandR
+      parentName: European Female_03(Clone)
+      position: {x: -0.0003294714, y: 0.01222186, z: 0.0056646676}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100.000015, y: 100.00001, z: 100}
+    - name: European Female_03_Trousers
+      parentName: European Female_03(Clone)
+      position: {x: 0.00012910354, y: 0.004455334, z: -0.0004593854}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100, y: 100.00001, z: 100}
+    - name: European Female_03_Shirt
+      parentName: European Female_03(Clone)
+      position: {x: -0.00040664096, y: 0.010783661, z: -0.0004634298}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100.000015, y: 100, z: 100}
+    - name: European Female_03_Head
+      parentName: European Female_03(Clone)
+      position: {x: -0.00012320663, y: 0.013147731, z: -0.00046201985}
+      rotation: {x: -0.4907, y: -0.5091301, z: -0.49069935, w: 0.50913084}
+      scale: {x: 100.000015, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -253,13 +1522,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.0025
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

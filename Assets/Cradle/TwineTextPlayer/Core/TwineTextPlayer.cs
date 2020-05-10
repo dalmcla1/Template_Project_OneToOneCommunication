@@ -56,6 +56,12 @@ namespace Cradle.Players
         //Warte 3 Sekunden bevor Story beginnt
         private float startWait = 5f;
 
+
+
+        private LaunchManager launchManager;
+        private LoggingManager log;
+
+
         void Start()
         {
             Invoke("Initialize", startWait);
@@ -100,7 +106,11 @@ namespace Cradle.Players
             keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
             keywordRecognizer.Start();
 
-
+            //EVE
+            //launchManager = GameObject.FindGameObjectWithTag("LaunchManager").GetComponent<LaunchManager>();
+            //log = launchManager.LoggingManager;
+            //int maxDuration = int.Parse(log.GetParameterValue("maxDuration"));
+            //bool timePressure = log.GetParameterValue("timePressure").ToLower() == "yes";
 
             if (StartStory)
                 this.Story.Begin();
@@ -203,7 +213,7 @@ namespace Cradle.Players
                 var text = (StoryText)output;
 
 
-                if (!string.IsNullOrEmpty(text.Text))
+                if (!string.IsNullOrEmpty(text.Text))//Prüfen ob Story Leerzeilen beinhaltet.
                 {
                     if (text.Text != " ")
                     {
@@ -320,7 +330,7 @@ namespace Cradle.Players
                         audioSourceDenis.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
                         audioSourceDenis.Play();
                         Debug.Log(audioSourceDenis.clip.length);
-                        //Invoke("Antworttext_einblenden", audioSourceDenis.clip.length);
+                        Invoke("Antworttext_einblenden", audioSourceDenis.clip.length);
 
 
                     }
@@ -364,7 +374,7 @@ namespace Cradle.Players
                         Debug.Log(audioSourceRegina.clip.length);
                         Invoke("Antworttext_einblenden", audioSourceRegina.clip.length);
                     }
-                    Invoke("Antworttext_einblenden", audioSourceDenis.clip.length);
+
                 }
                 void _gcTextToSpeech_GetVoicesSuccessEvent(GetVoicesResponse response)
                 {
@@ -382,7 +392,7 @@ namespace Cradle.Players
                 if (!ShowNamedLinks && link.IsNamed)
                     return;
 
-                //Add Keywords to Dictionary: replace if already exists, add if new
+                //Add Keywords to Dictionary: Ersetzten falls schon vorhanden und sonst insert
                 if (actions.ContainsKey(output.Text))
                 {
                     actions[output.Text] = link;
@@ -455,14 +465,14 @@ namespace Cradle.Players
 
             if (actions.ContainsKey(speech.text))
             {
-                Debug.Log("Keyword recognized: " + speech.text);
+                Debug.Log("Keyword erkannt: " + speech.text);
                 JumpTo(actions[speech.text]);
             }
         }
 
         private void JumpTo(StoryLink link)
         {
-            Debug.Log("Sprachbefehl ausgeführt");
+            Debug.Log("Sprachbefehl erfolgreich");
             this.Story.DoLink(link);
 
         }

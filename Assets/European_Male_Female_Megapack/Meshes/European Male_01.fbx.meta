@@ -1,203 +1,596 @@
 fileFormatVersion: 2
 guid: 286e087c22f8fd8419f4f965967df13e
-timeCreated: 1548920235
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: //RootNode
-    100004: European Male_01_Head
-    100006: European Male_01_Jacket
-    100008: European Male_01_Jeans
-    100010: European Male_01_LeftHand
-    100012: European Male_01_LeftShoe
-    100014: European Male_01_RightHand
-    100016: European Male_01_RightShoe
-    100018: Male_01_rig:Head
-    100020: Male_01_rig:HeadTop_End
-    100022: Male_01_rig:HeadTop_End_end
-    100024: Male_01_rig:Hips
-    100026: Male_01_rig:LeftArm
-    100028: Male_01_rig:LeftFoot
-    100030: Male_01_rig:LeftForeArm
-    100032: Male_01_rig:LeftHand
-    100034: Male_01_rig:LeftHandIndex1
-    100036: Male_01_rig:LeftHandIndex2
-    100038: Male_01_rig:LeftHandIndex3
-    100040: Male_01_rig:LeftHandIndex4
-    100042: Male_01_rig:LeftHandIndex4_end
-    100044: Male_01_rig:LeftHandMiddle1
-    100046: Male_01_rig:LeftHandMiddle2
-    100048: Male_01_rig:LeftHandMiddle3
-    100050: Male_01_rig:LeftHandMiddle4
-    100052: Male_01_rig:LeftHandMiddle4_end
-    100054: Male_01_rig:LeftHandPinky1
-    100056: Male_01_rig:LeftHandPinky2
-    100058: Male_01_rig:LeftHandPinky3
-    100060: Male_01_rig:LeftHandPinky4
-    100062: Male_01_rig:LeftHandPinky4_end
-    100064: Male_01_rig:LeftHandRing1
-    100066: Male_01_rig:LeftHandRing2
-    100068: Male_01_rig:LeftHandRing3
-    100070: Male_01_rig:LeftHandRing4
-    100072: Male_01_rig:LeftHandRing4_end
-    100074: Male_01_rig:LeftHandThumb1
-    100076: Male_01_rig:LeftHandThumb2
-    100078: Male_01_rig:LeftHandThumb3
-    100080: Male_01_rig:LeftHandThumb4
-    100082: Male_01_rig:LeftHandThumb4_end
-    100084: Male_01_rig:LeftLeg
-    100086: Male_01_rig:LeftShoulder
-    100088: Male_01_rig:LeftToe_End
-    100090: Male_01_rig:LeftToe_End_end
-    100092: Male_01_rig:LeftToeBase
-    100094: Male_01_rig:LeftUpLeg
-    100096: Male_01_rig:Neck
-    100098: Male_01_rig:RightArm
-    100100: Male_01_rig:RightFoot
-    100102: Male_01_rig:RightForeArm
-    100104: Male_01_rig:RightHand
-    100106: Male_01_rig:RightHandIndex1
-    100108: Male_01_rig:RightHandIndex2
-    100110: Male_01_rig:RightHandIndex3
-    100112: Male_01_rig:RightHandIndex4
-    100114: Male_01_rig:RightHandIndex4_end
-    100116: Male_01_rig:RightHandMiddle1
-    100118: Male_01_rig:RightHandMiddle2
-    100120: Male_01_rig:RightHandMiddle3
-    100122: Male_01_rig:RightHandMiddle4
-    100124: Male_01_rig:RightHandMiddle4_end
-    100126: Male_01_rig:RightHandPinky1
-    100128: Male_01_rig:RightHandPinky2
-    100130: Male_01_rig:RightHandPinky3
-    100132: Male_01_rig:RightHandPinky4
-    100134: Male_01_rig:RightHandPinky4_end
-    100136: Male_01_rig:RightHandRing1
-    100138: Male_01_rig:RightHandRing2
-    100140: Male_01_rig:RightHandRing3
-    100142: Male_01_rig:RightHandRing4
-    100144: Male_01_rig:RightHandRing4_end
-    100146: Male_01_rig:RightHandThumb1
-    100148: Male_01_rig:RightHandThumb2
-    100150: Male_01_rig:RightHandThumb3
-    100152: Male_01_rig:RightHandThumb4
-    100154: Male_01_rig:RightHandThumb4_end
-    100156: Male_01_rig:RightLeg
-    100158: Male_01_rig:RightShoulder
-    100160: Male_01_rig:RightToe_End
-    100162: Male_01_rig:RightToe_End_end
-    100164: Male_01_rig:RightToeBase
-    100166: Male_01_rig:RightUpLeg
-    100168: Male_01_rig:Spine
-    100170: Male_01_rig:Spine1
-    100172: Male_01_rig:Spine2
-    400000: Armature
-    400002: //RootNode
-    400004: European Male_01_Head
-    400006: European Male_01_Jacket
-    400008: European Male_01_Jeans
-    400010: European Male_01_LeftHand
-    400012: European Male_01_LeftShoe
-    400014: European Male_01_RightHand
-    400016: European Male_01_RightShoe
-    400018: Male_01_rig:Head
-    400020: Male_01_rig:HeadTop_End
-    400022: Male_01_rig:HeadTop_End_end
-    400024: Male_01_rig:Hips
-    400026: Male_01_rig:LeftArm
-    400028: Male_01_rig:LeftFoot
-    400030: Male_01_rig:LeftForeArm
-    400032: Male_01_rig:LeftHand
-    400034: Male_01_rig:LeftHandIndex1
-    400036: Male_01_rig:LeftHandIndex2
-    400038: Male_01_rig:LeftHandIndex3
-    400040: Male_01_rig:LeftHandIndex4
-    400042: Male_01_rig:LeftHandIndex4_end
-    400044: Male_01_rig:LeftHandMiddle1
-    400046: Male_01_rig:LeftHandMiddle2
-    400048: Male_01_rig:LeftHandMiddle3
-    400050: Male_01_rig:LeftHandMiddle4
-    400052: Male_01_rig:LeftHandMiddle4_end
-    400054: Male_01_rig:LeftHandPinky1
-    400056: Male_01_rig:LeftHandPinky2
-    400058: Male_01_rig:LeftHandPinky3
-    400060: Male_01_rig:LeftHandPinky4
-    400062: Male_01_rig:LeftHandPinky4_end
-    400064: Male_01_rig:LeftHandRing1
-    400066: Male_01_rig:LeftHandRing2
-    400068: Male_01_rig:LeftHandRing3
-    400070: Male_01_rig:LeftHandRing4
-    400072: Male_01_rig:LeftHandRing4_end
-    400074: Male_01_rig:LeftHandThumb1
-    400076: Male_01_rig:LeftHandThumb2
-    400078: Male_01_rig:LeftHandThumb3
-    400080: Male_01_rig:LeftHandThumb4
-    400082: Male_01_rig:LeftHandThumb4_end
-    400084: Male_01_rig:LeftLeg
-    400086: Male_01_rig:LeftShoulder
-    400088: Male_01_rig:LeftToe_End
-    400090: Male_01_rig:LeftToe_End_end
-    400092: Male_01_rig:LeftToeBase
-    400094: Male_01_rig:LeftUpLeg
-    400096: Male_01_rig:Neck
-    400098: Male_01_rig:RightArm
-    400100: Male_01_rig:RightFoot
-    400102: Male_01_rig:RightForeArm
-    400104: Male_01_rig:RightHand
-    400106: Male_01_rig:RightHandIndex1
-    400108: Male_01_rig:RightHandIndex2
-    400110: Male_01_rig:RightHandIndex3
-    400112: Male_01_rig:RightHandIndex4
-    400114: Male_01_rig:RightHandIndex4_end
-    400116: Male_01_rig:RightHandMiddle1
-    400118: Male_01_rig:RightHandMiddle2
-    400120: Male_01_rig:RightHandMiddle3
-    400122: Male_01_rig:RightHandMiddle4
-    400124: Male_01_rig:RightHandMiddle4_end
-    400126: Male_01_rig:RightHandPinky1
-    400128: Male_01_rig:RightHandPinky2
-    400130: Male_01_rig:RightHandPinky3
-    400132: Male_01_rig:RightHandPinky4
-    400134: Male_01_rig:RightHandPinky4_end
-    400136: Male_01_rig:RightHandRing1
-    400138: Male_01_rig:RightHandRing2
-    400140: Male_01_rig:RightHandRing3
-    400142: Male_01_rig:RightHandRing4
-    400144: Male_01_rig:RightHandRing4_end
-    400146: Male_01_rig:RightHandThumb1
-    400148: Male_01_rig:RightHandThumb2
-    400150: Male_01_rig:RightHandThumb3
-    400152: Male_01_rig:RightHandThumb4
-    400154: Male_01_rig:RightHandThumb4_end
-    400156: Male_01_rig:RightLeg
-    400158: Male_01_rig:RightShoulder
-    400160: Male_01_rig:RightToe_End
-    400162: Male_01_rig:RightToe_End_end
-    400164: Male_01_rig:RightToeBase
-    400166: Male_01_rig:RightUpLeg
-    400168: Male_01_rig:Spine
-    400170: Male_01_rig:Spine1
-    400172: Male_01_rig:Spine2
-    4300000: European Male_01_RightShoe
-    4300002: European Male_01_LeftShoe
-    4300004: European Male_01_Jeans
-    4300006: European Male_01_LeftHand
-    4300008: European Male_01_Jacket
-    4300010: European Male_01_RightHand
-    4300012: European Male_01_Head
-    9500000: //RootNode
-    13700000: European Male_01_Head
-    13700002: European Male_01_Jacket
-    13700004: European Male_01_Jeans
-    13700006: European Male_01_LeftHand
-    13700008: European Male_01_LeftShoe
-    13700010: European Male_01_RightHand
-    13700012: European Male_01_RightShoe
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: European Male_01_Head
+  - first:
+      1: 100006
+    second: European Male_01_Jacket
+  - first:
+      1: 100008
+    second: European Male_01_Jeans
+  - first:
+      1: 100010
+    second: European Male_01_LeftHand
+  - first:
+      1: 100012
+    second: European Male_01_LeftShoe
+  - first:
+      1: 100014
+    second: European Male_01_RightHand
+  - first:
+      1: 100016
+    second: European Male_01_RightShoe
+  - first:
+      1: 100018
+    second: Male_01_rig:Head
+  - first:
+      1: 100020
+    second: Male_01_rig:HeadTop_End
+  - first:
+      1: 100022
+    second: Male_01_rig:HeadTop_End_end
+  - first:
+      1: 100024
+    second: Male_01_rig:Hips
+  - first:
+      1: 100026
+    second: Male_01_rig:LeftArm
+  - first:
+      1: 100028
+    second: Male_01_rig:LeftFoot
+  - first:
+      1: 100030
+    second: Male_01_rig:LeftForeArm
+  - first:
+      1: 100032
+    second: Male_01_rig:LeftHand
+  - first:
+      1: 100034
+    second: Male_01_rig:LeftHandIndex1
+  - first:
+      1: 100036
+    second: Male_01_rig:LeftHandIndex2
+  - first:
+      1: 100038
+    second: Male_01_rig:LeftHandIndex3
+  - first:
+      1: 100040
+    second: Male_01_rig:LeftHandIndex4
+  - first:
+      1: 100042
+    second: Male_01_rig:LeftHandIndex4_end
+  - first:
+      1: 100044
+    second: Male_01_rig:LeftHandMiddle1
+  - first:
+      1: 100046
+    second: Male_01_rig:LeftHandMiddle2
+  - first:
+      1: 100048
+    second: Male_01_rig:LeftHandMiddle3
+  - first:
+      1: 100050
+    second: Male_01_rig:LeftHandMiddle4
+  - first:
+      1: 100052
+    second: Male_01_rig:LeftHandMiddle4_end
+  - first:
+      1: 100054
+    second: Male_01_rig:LeftHandPinky1
+  - first:
+      1: 100056
+    second: Male_01_rig:LeftHandPinky2
+  - first:
+      1: 100058
+    second: Male_01_rig:LeftHandPinky3
+  - first:
+      1: 100060
+    second: Male_01_rig:LeftHandPinky4
+  - first:
+      1: 100062
+    second: Male_01_rig:LeftHandPinky4_end
+  - first:
+      1: 100064
+    second: Male_01_rig:LeftHandRing1
+  - first:
+      1: 100066
+    second: Male_01_rig:LeftHandRing2
+  - first:
+      1: 100068
+    second: Male_01_rig:LeftHandRing3
+  - first:
+      1: 100070
+    second: Male_01_rig:LeftHandRing4
+  - first:
+      1: 100072
+    second: Male_01_rig:LeftHandRing4_end
+  - first:
+      1: 100074
+    second: Male_01_rig:LeftHandThumb1
+  - first:
+      1: 100076
+    second: Male_01_rig:LeftHandThumb2
+  - first:
+      1: 100078
+    second: Male_01_rig:LeftHandThumb3
+  - first:
+      1: 100080
+    second: Male_01_rig:LeftHandThumb4
+  - first:
+      1: 100082
+    second: Male_01_rig:LeftHandThumb4_end
+  - first:
+      1: 100084
+    second: Male_01_rig:LeftLeg
+  - first:
+      1: 100086
+    second: Male_01_rig:LeftShoulder
+  - first:
+      1: 100088
+    second: Male_01_rig:LeftToe_End
+  - first:
+      1: 100090
+    second: Male_01_rig:LeftToe_End_end
+  - first:
+      1: 100092
+    second: Male_01_rig:LeftToeBase
+  - first:
+      1: 100094
+    second: Male_01_rig:LeftUpLeg
+  - first:
+      1: 100096
+    second: Male_01_rig:Neck
+  - first:
+      1: 100098
+    second: Male_01_rig:RightArm
+  - first:
+      1: 100100
+    second: Male_01_rig:RightFoot
+  - first:
+      1: 100102
+    second: Male_01_rig:RightForeArm
+  - first:
+      1: 100104
+    second: Male_01_rig:RightHand
+  - first:
+      1: 100106
+    second: Male_01_rig:RightHandIndex1
+  - first:
+      1: 100108
+    second: Male_01_rig:RightHandIndex2
+  - first:
+      1: 100110
+    second: Male_01_rig:RightHandIndex3
+  - first:
+      1: 100112
+    second: Male_01_rig:RightHandIndex4
+  - first:
+      1: 100114
+    second: Male_01_rig:RightHandIndex4_end
+  - first:
+      1: 100116
+    second: Male_01_rig:RightHandMiddle1
+  - first:
+      1: 100118
+    second: Male_01_rig:RightHandMiddle2
+  - first:
+      1: 100120
+    second: Male_01_rig:RightHandMiddle3
+  - first:
+      1: 100122
+    second: Male_01_rig:RightHandMiddle4
+  - first:
+      1: 100124
+    second: Male_01_rig:RightHandMiddle4_end
+  - first:
+      1: 100126
+    second: Male_01_rig:RightHandPinky1
+  - first:
+      1: 100128
+    second: Male_01_rig:RightHandPinky2
+  - first:
+      1: 100130
+    second: Male_01_rig:RightHandPinky3
+  - first:
+      1: 100132
+    second: Male_01_rig:RightHandPinky4
+  - first:
+      1: 100134
+    second: Male_01_rig:RightHandPinky4_end
+  - first:
+      1: 100136
+    second: Male_01_rig:RightHandRing1
+  - first:
+      1: 100138
+    second: Male_01_rig:RightHandRing2
+  - first:
+      1: 100140
+    second: Male_01_rig:RightHandRing3
+  - first:
+      1: 100142
+    second: Male_01_rig:RightHandRing4
+  - first:
+      1: 100144
+    second: Male_01_rig:RightHandRing4_end
+  - first:
+      1: 100146
+    second: Male_01_rig:RightHandThumb1
+  - first:
+      1: 100148
+    second: Male_01_rig:RightHandThumb2
+  - first:
+      1: 100150
+    second: Male_01_rig:RightHandThumb3
+  - first:
+      1: 100152
+    second: Male_01_rig:RightHandThumb4
+  - first:
+      1: 100154
+    second: Male_01_rig:RightHandThumb4_end
+  - first:
+      1: 100156
+    second: Male_01_rig:RightLeg
+  - first:
+      1: 100158
+    second: Male_01_rig:RightShoulder
+  - first:
+      1: 100160
+    second: Male_01_rig:RightToe_End
+  - first:
+      1: 100162
+    second: Male_01_rig:RightToe_End_end
+  - first:
+      1: 100164
+    second: Male_01_rig:RightToeBase
+  - first:
+      1: 100166
+    second: Male_01_rig:RightUpLeg
+  - first:
+      1: 100168
+    second: Male_01_rig:Spine
+  - first:
+      1: 100170
+    second: Male_01_rig:Spine1
+  - first:
+      1: 100172
+    second: Male_01_rig:Spine2
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: European Male_01_Head
+  - first:
+      4: 400006
+    second: European Male_01_Jacket
+  - first:
+      4: 400008
+    second: European Male_01_Jeans
+  - first:
+      4: 400010
+    second: European Male_01_LeftHand
+  - first:
+      4: 400012
+    second: European Male_01_LeftShoe
+  - first:
+      4: 400014
+    second: European Male_01_RightHand
+  - first:
+      4: 400016
+    second: European Male_01_RightShoe
+  - first:
+      4: 400018
+    second: Male_01_rig:Head
+  - first:
+      4: 400020
+    second: Male_01_rig:HeadTop_End
+  - first:
+      4: 400022
+    second: Male_01_rig:HeadTop_End_end
+  - first:
+      4: 400024
+    second: Male_01_rig:Hips
+  - first:
+      4: 400026
+    second: Male_01_rig:LeftArm
+  - first:
+      4: 400028
+    second: Male_01_rig:LeftFoot
+  - first:
+      4: 400030
+    second: Male_01_rig:LeftForeArm
+  - first:
+      4: 400032
+    second: Male_01_rig:LeftHand
+  - first:
+      4: 400034
+    second: Male_01_rig:LeftHandIndex1
+  - first:
+      4: 400036
+    second: Male_01_rig:LeftHandIndex2
+  - first:
+      4: 400038
+    second: Male_01_rig:LeftHandIndex3
+  - first:
+      4: 400040
+    second: Male_01_rig:LeftHandIndex4
+  - first:
+      4: 400042
+    second: Male_01_rig:LeftHandIndex4_end
+  - first:
+      4: 400044
+    second: Male_01_rig:LeftHandMiddle1
+  - first:
+      4: 400046
+    second: Male_01_rig:LeftHandMiddle2
+  - first:
+      4: 400048
+    second: Male_01_rig:LeftHandMiddle3
+  - first:
+      4: 400050
+    second: Male_01_rig:LeftHandMiddle4
+  - first:
+      4: 400052
+    second: Male_01_rig:LeftHandMiddle4_end
+  - first:
+      4: 400054
+    second: Male_01_rig:LeftHandPinky1
+  - first:
+      4: 400056
+    second: Male_01_rig:LeftHandPinky2
+  - first:
+      4: 400058
+    second: Male_01_rig:LeftHandPinky3
+  - first:
+      4: 400060
+    second: Male_01_rig:LeftHandPinky4
+  - first:
+      4: 400062
+    second: Male_01_rig:LeftHandPinky4_end
+  - first:
+      4: 400064
+    second: Male_01_rig:LeftHandRing1
+  - first:
+      4: 400066
+    second: Male_01_rig:LeftHandRing2
+  - first:
+      4: 400068
+    second: Male_01_rig:LeftHandRing3
+  - first:
+      4: 400070
+    second: Male_01_rig:LeftHandRing4
+  - first:
+      4: 400072
+    second: Male_01_rig:LeftHandRing4_end
+  - first:
+      4: 400074
+    second: Male_01_rig:LeftHandThumb1
+  - first:
+      4: 400076
+    second: Male_01_rig:LeftHandThumb2
+  - first:
+      4: 400078
+    second: Male_01_rig:LeftHandThumb3
+  - first:
+      4: 400080
+    second: Male_01_rig:LeftHandThumb4
+  - first:
+      4: 400082
+    second: Male_01_rig:LeftHandThumb4_end
+  - first:
+      4: 400084
+    second: Male_01_rig:LeftLeg
+  - first:
+      4: 400086
+    second: Male_01_rig:LeftShoulder
+  - first:
+      4: 400088
+    second: Male_01_rig:LeftToe_End
+  - first:
+      4: 400090
+    second: Male_01_rig:LeftToe_End_end
+  - first:
+      4: 400092
+    second: Male_01_rig:LeftToeBase
+  - first:
+      4: 400094
+    second: Male_01_rig:LeftUpLeg
+  - first:
+      4: 400096
+    second: Male_01_rig:Neck
+  - first:
+      4: 400098
+    second: Male_01_rig:RightArm
+  - first:
+      4: 400100
+    second: Male_01_rig:RightFoot
+  - first:
+      4: 400102
+    second: Male_01_rig:RightForeArm
+  - first:
+      4: 400104
+    second: Male_01_rig:RightHand
+  - first:
+      4: 400106
+    second: Male_01_rig:RightHandIndex1
+  - first:
+      4: 400108
+    second: Male_01_rig:RightHandIndex2
+  - first:
+      4: 400110
+    second: Male_01_rig:RightHandIndex3
+  - first:
+      4: 400112
+    second: Male_01_rig:RightHandIndex4
+  - first:
+      4: 400114
+    second: Male_01_rig:RightHandIndex4_end
+  - first:
+      4: 400116
+    second: Male_01_rig:RightHandMiddle1
+  - first:
+      4: 400118
+    second: Male_01_rig:RightHandMiddle2
+  - first:
+      4: 400120
+    second: Male_01_rig:RightHandMiddle3
+  - first:
+      4: 400122
+    second: Male_01_rig:RightHandMiddle4
+  - first:
+      4: 400124
+    second: Male_01_rig:RightHandMiddle4_end
+  - first:
+      4: 400126
+    second: Male_01_rig:RightHandPinky1
+  - first:
+      4: 400128
+    second: Male_01_rig:RightHandPinky2
+  - first:
+      4: 400130
+    second: Male_01_rig:RightHandPinky3
+  - first:
+      4: 400132
+    second: Male_01_rig:RightHandPinky4
+  - first:
+      4: 400134
+    second: Male_01_rig:RightHandPinky4_end
+  - first:
+      4: 400136
+    second: Male_01_rig:RightHandRing1
+  - first:
+      4: 400138
+    second: Male_01_rig:RightHandRing2
+  - first:
+      4: 400140
+    second: Male_01_rig:RightHandRing3
+  - first:
+      4: 400142
+    second: Male_01_rig:RightHandRing4
+  - first:
+      4: 400144
+    second: Male_01_rig:RightHandRing4_end
+  - first:
+      4: 400146
+    second: Male_01_rig:RightHandThumb1
+  - first:
+      4: 400148
+    second: Male_01_rig:RightHandThumb2
+  - first:
+      4: 400150
+    second: Male_01_rig:RightHandThumb3
+  - first:
+      4: 400152
+    second: Male_01_rig:RightHandThumb4
+  - first:
+      4: 400154
+    second: Male_01_rig:RightHandThumb4_end
+  - first:
+      4: 400156
+    second: Male_01_rig:RightLeg
+  - first:
+      4: 400158
+    second: Male_01_rig:RightShoulder
+  - first:
+      4: 400160
+    second: Male_01_rig:RightToe_End
+  - first:
+      4: 400162
+    second: Male_01_rig:RightToe_End_end
+  - first:
+      4: 400164
+    second: Male_01_rig:RightToeBase
+  - first:
+      4: 400166
+    second: Male_01_rig:RightUpLeg
+  - first:
+      4: 400168
+    second: Male_01_rig:Spine
+  - first:
+      4: 400170
+    second: Male_01_rig:Spine1
+  - first:
+      4: 400172
+    second: Male_01_rig:Spine2
+  - first:
+      43: 4300000
+    second: European Male_01_RightShoe
+  - first:
+      43: 4300002
+    second: European Male_01_LeftShoe
+  - first:
+      43: 4300004
+    second: European Male_01_Jeans
+  - first:
+      43: 4300006
+    second: European Male_01_LeftHand
+  - first:
+      43: 4300008
+    second: European Male_01_Jacket
+  - first:
+      43: 4300010
+    second: European Male_01_RightHand
+  - first:
+      43: 4300012
+    second: European Male_01_Head
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: European Male_01_Head
+  - first:
+      137: 13700002
+    second: European Male_01_Jacket
+  - first:
+      137: 13700004
+    second: European Male_01_Jeans
+  - first:
+      137: 13700006
+    second: European Male_01_LeftHand
+  - first:
+      137: 13700008
+    second: European Male_01_LeftShoe
+  - first:
+      137: 13700010
+    second: European Male_01_RightHand
+  - first:
+      137: 13700012
+    second: European Male_01_RightShoe
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Male_01_Clothes
+    second: {fileID: 2100000, guid: 28a769d796bbdca4aa58e8921e3e20c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Male_01_Head
+    second: {fileID: 2100000, guid: 3252ebaa2141b8a469fbfc56b60f4acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: European Male_01_Skin
+    second: {fileID: 2100000, guid: a83c7b1b20b3b0048af23e4793702a2c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -210,26 +603,39 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.25
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -239,12 +645,873 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
-    human: []
-    skeleton: []
+    serializedVersion: 3
+    human:
+    - boneName: Male_01_rig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Male_01_rig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: European Male_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: European Male_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:Hips
+      parentName: Armature
+      position: {x: -0.000025566671, y: 0.008077647, z: -0.0000067829847}
+      rotation: {x: -0.00000006283951, y: 0.005649027, z: -0.0000000017297114, w: 0.9999841}
+      scale: {x: 0.999997, y: 0.9999999, z: 0.999997}
+    - name: Male_01_rig:Spine
+      parentName: Male_01_rig:Hips
+      position: {x: 7.3015684e-11, y: 0.00089648424, z: -0.00006985847}
+      rotation: {x: -0.03887415, y: 0.000000059604645, z: -1.4156498e-10, w: 0.99924415}
+      scale: {x: 1.0000021, y: 1.0000001, z: 1.000002}
+    - name: Male_01_rig:Spine1
+      parentName: Male_01_rig:Spine
+      position: {x: -1.4901161e-12, y: 0.0010490658, z: -2.6822088e-11}
+      rotation: {x: -0.000000014901159, y: -0, z: -8.881783e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000011}
+    - name: Male_01_rig:Spine2
+      parentName: Male_01_rig:Spine1
+      position: {x: 7.45058e-12, y: 0.0011989349, z: 2.6449561e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000008}
+    - name: Male_01_rig:Neck
+      parentName: Male_01_rig:Spine2
+      position: {x: 4.470348e-12, y: 0.0013488012, z: -2.5518237e-11}
+      rotation: {x: 0.038874153, y: -0.0000000596318, z: 8.3954604e-10, w: 0.99924415}
+      scale: {x: 0.99999636, y: 1, z: 0.99999785}
+    - name: Male_01_rig:Head
+      parentName: Male_01_rig:Neck
+      position: {x: -8.6426734e-11, y: 0.00058812846, z: 0.00010021261}
+      rotation: {x: 0.0000000037252899, y: -0, z: 9.313156e-10, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 0.99999964}
+    - name: Male_01_rig:HeadTop_End
+      parentName: Male_01_rig:Head
+      position: {x: 2.235174e-12, y: 0.0017796352, z: 0.00030323604}
+      rotation: {x: -0, y: -2.2768248e-18, z: -6.111806e-10, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999976}
+    - name: Male_01_rig:HeadTop_End_end
+      parentName: Male_01_rig:HeadTop_End
+      position: {x: -0, y: 0.001805284, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftShoulder
+      parentName: Male_01_rig:Spine2
+      position: {x: -0.0007112999, y: 0.0011649132, z: -0.000014920815}
+      rotation: {x: 0.5533013, y: -0.43730518, z: 0.5650448, w: 0.42818967}
+      scale: {x: 1.0000068, y: 1.0000035, z: 1.000002}
+    - name: Male_01_rig:LeftArm
+      parentName: Male_01_rig:LeftShoulder
+      position: {x: 4.7683715e-11, y: 0.0014577196, z: 9.283423e-10}
+      rotation: {x: -0.11139549, y: 0.003299072, z: -0.029419567, w: 0.9933352}
+      scale: {x: 1.0000049, y: 1.0000044, z: 1.000004}
+    - name: Male_01_rig:LeftForeArm
+      parentName: Male_01_rig:LeftArm
+      position: {x: 9.536743e-11, y: 0.0021702286, z: -7.8082074e-10}
+      rotation: {x: 0.042865235, y: 0.0002548054, z: -0.005938997, w: -0.99906325}
+      scale: {x: 1.0000049, y: 1.0000027, z: 1.0000061}
+    - name: Male_01_rig:LeftHand
+      parentName: Male_01_rig:LeftForeArm
+      position: {x: 4.053116e-10, y: 0.0018626521, z: 5.7220456e-10}
+      rotation: {x: -0.06982988, y: 0.049320847, z: -0.08228276, w: -0.99293554}
+      scale: {x: 1.000007, y: 1.0000036, z: 1.0000042}
+    - name: Male_01_rig:LeftHandThumb1
+      parentName: Male_01_rig:LeftHand
+      position: {x: 0.00024646462, y: 0.00007433859, z: 0.00008208127}
+      rotation: {x: 0.033169445, y: -0.0545199, z: -0.5222726, w: 0.8503874}
+      scale: {x: 1.0000048, y: 1.00001, z: 1.0000031}
+    - name: Male_01_rig:LeftHandThumb2
+      parentName: Male_01_rig:LeftHandThumb1
+      position: {x: -0.000010745143, y: 0.0002158933, z: -3.5762784e-10}
+      rotation: {x: 0.030102162, y: -0.0007885539, z: 0.040829744, w: 0.99871224}
+      scale: {x: 1.0000055, y: 1.0000113, z: 0.9999989}
+    - name: Male_01_rig:LeftHandThumb3
+      parentName: Male_01_rig:LeftHandThumb2
+      position: {x: 0.000010180042, y: 0.00023776783, z: 7.152557e-10}
+      rotation: {x: -0.03757405, y: -0.0015836837, z: -0.013028743, w: 0.99920774}
+      scale: {x: 1.0000008, y: 0.99999416, z: 1.0000104}
+    - name: Male_01_rig:LeftHandThumb4
+      parentName: Male_01_rig:LeftHandThumb3
+      position: {x: 0.0000005668163, y: 0.0002120438, z: 0.0000000011444091}
+      rotation: {x: -0.00000007450577, y: 0.00000007484368, z: -0.00000020863669,
+        w: 1}
+      scale: {x: 1.0000057, y: 1.0000048, z: 1.0000025}
+    - name: Male_01_rig:LeftHandThumb4_end
+      parentName: Male_01_rig:LeftHandThumb4
+      position: {x: -0, y: 0.00021204463, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftHandIndex1
+      parentName: Male_01_rig:LeftHand
+      position: {x: 0.0002914434, y: 0.00053368567, z: 0.00000819959}
+      rotation: {x: -0.027795432, y: 0.0045555467, z: -0.15181316, w: 0.98800784}
+      scale: {x: 1.0000033, y: 1.0000081, z: 1.0000018}
+    - name: Male_01_rig:LeftHandIndex2
+      parentName: Male_01_rig:LeftHandIndex1
+      position: {x: -0.00000011596679, y: 0.00027295583, z: -1.8477438e-10}
+      rotation: {x: 0.040245518, y: 0.000002426093, z: 0.00020963344, w: 0.99918985}
+      scale: {x: 1.0000012, y: 1.0000013, z: 1.0000027}
+    - name: Male_01_rig:LeftHandIndex3
+      parentName: Male_01_rig:LeftHandIndex2
+      position: {x: 0.00000015616415, y: 0.0002539533, z: 0.0000000012397765}
+      rotation: {x: -0.041069604, y: -0.000002402841, z: -0.000076679906, w: 0.9991563}
+      scale: {x: 1.0000105, y: 1.0000044, z: 1.000003}
+    - name: Male_01_rig:LeftHandIndex4
+      parentName: Male_01_rig:LeftHandIndex3
+      position: {x: -0.000000039911267, y: 0.00023110816, z: -7.748603e-11}
+      rotation: {x: -0.00000037997947, y: -0.000000068495275, z: -0.00000005870463,
+        w: 1}
+      scale: {x: 1.0000094, y: 1.0000046, z: 1.0000044}
+    - name: Male_01_rig:LeftHandIndex4_end
+      parentName: Male_01_rig:LeftHandIndex4
+      position: {x: -0, y: 0.00023110866, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftHandMiddle1
+      parentName: Male_01_rig:LeftHand
+      position: {x: 0.00008144354, y: 0.00053380494, z: 0.000003970909}
+      rotation: {x: -0.017671831, y: 0.00046115357, z: -0.026100151, w: 0.9995031}
+      scale: {x: 1.0000134, y: 1.0000079, z: 1.0000043}
+    - name: Male_01_rig:LeftHandMiddle2
+      parentName: Male_01_rig:LeftHandMiddle1
+      position: {x: -0.000000011563301, y: 0.00031591012, z: 0.0000000010728836}
+      rotation: {x: 0.04128734, y: 0.000000521802, z: 0.000011664956, w: 0.9991473}
+      scale: {x: 1.0000095, y: 1.0000067, z: 1.0000068}
+    - name: Male_01_rig:LeftHandMiddle3
+      parentName: Male_01_rig:LeftHandMiddle2
+      position: {x: 0.0000000480175, y: 0.00030137278, z: 1.7881393e-11}
+      rotation: {x: -0.04007084, y: -0.000000692224, z: -0.00006342796, w: 0.9991968}
+      scale: {x: 1.0000011, y: 1.0000004, z: 0.9999984}
+    - name: Male_01_rig:LeftHandMiddle4
+      parentName: Male_01_rig:LeftHandMiddle3
+      position: {x: -0.00000003620088, y: 0.00027640388, z: -2.6524066e-10}
+      rotation: {x: -0.000000007450577, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000048, y: 1.0000012, z: 1.0000023}
+    - name: Male_01_rig:LeftHandMiddle4_end
+      parentName: Male_01_rig:LeftHandMiddle4
+      position: {x: -0, y: 0.0002764032, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftHandRing1
+      parentName: Male_01_rig:LeftHand
+      position: {x: -0.00010822199, y: 0.0005675671, z: -0.0000019428967}
+      rotation: {x: 0.00083114125, y: -0.00023898459, z: 0.0022862344, w: 0.999997}
+      scale: {x: 1.0000118, y: 1.0000056, z: 1.000006}
+    - name: Male_01_rig:LeftHandRing2
+      parentName: Male_01_rig:LeftHandRing1
+      position: {x: 0.000000018692015, y: 0.0002707387, z: -6.9439404e-10}
+      rotation: {x: 0.025985137, y: -0.00000011263178, z: 0.000000004622505, w: 0.99966234}
+      scale: {x: 1.000005, y: 1.0000035, z: 1.0000026}
+    - name: Male_01_rig:LeftHandRing3
+      parentName: Male_01_rig:LeftHandRing2
+      position: {x: -0.000000030726195, y: 0.0002569919, z: 6.571412e-10}
+      rotation: {x: -0.023255367, y: 0.0000004784997, z: 0.00000039976945, w: 0.99972963}
+      scale: {x: 1.000011, y: 1.000006, z: 1.0000043}
+    - name: Male_01_rig:LeftHandRing4
+      parentName: Male_01_rig:LeftHandRing3
+      position: {x: 0.000000011861323, y: 0.0002305255, z: -2.0936129e-10}
+      rotation: {x: 0.00000035576505, y: 0.00000006653184, z: 1.3701566e-10, w: 1}
+      scale: {x: 1.0000082, y: 1.0000068, z: 1.0000046}
+    - name: Male_01_rig:LeftHandRing4_end
+      parentName: Male_01_rig:LeftHandRing4
+      position: {x: -0, y: 0.00023052497, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftHandPinky1
+      parentName: Male_01_rig:LeftHand
+      position: {x: -0.00026466473, y: 0.00050764874, z: 0.000008908637}
+      rotation: {x: -0.0032409697, y: -0.0076854043, z: -0.0046652257, w: 0.99995434}
+      scale: {x: 1.0000143, y: 1.0000039, z: 1.0000069}
+    - name: Male_01_rig:LeftHandPinky2
+      parentName: Male_01_rig:LeftHandPinky1
+      position: {x: 0.00000018135084, y: 0.00024621864, z: -0.0000000011345371}
+      rotation: {x: 0.04041451, y: 0.0000029071214, z: -0.0002272646, w: 0.999183}
+      scale: {x: 1.000005, y: 1.0000025, z: 1.0000024}
+    - name: Male_01_rig:LeftHandPinky3
+      parentName: Male_01_rig:LeftHandPinky2
+      position: {x: -0.000000095060464, y: 0.00019408195, z: -5.83101e-10}
+      rotation: {x: -0.0001284107, y: 0.0000012380044, z: 0.000001214312, w: 1}
+      scale: {x: 1.000004, y: 1.0000014, z: 1.0000012}
+    - name: Male_01_rig:LeftHandPinky4
+      parentName: Male_01_rig:LeftHandPinky3
+      position: {x: -0.00000008733869, y: 0.00018057284, z: 0.0000000013587995}
+      rotation: {x: -0.0000063553575, y: -0.00000005817001, z: -0.0000040059404, w: 1}
+      scale: {x: 1.0000067, y: 1.0000048, z: 1.0000012}
+    - name: Male_01_rig:LeftHandPinky4_end
+      parentName: Male_01_rig:LeftHandPinky4
+      position: {x: -0, y: 0.00018057457, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightShoulder
+      parentName: Male_01_rig:Spine2
+      position: {x: 0.0007113, y: 0.001164823, z: -0.00001374512}
+      rotation: {x: 0.55379784, y: 0.4369098, z: -0.56461394, w: 0.42851952}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000027}
+    - name: Male_01_rig:RightArm
+      parentName: Male_01_rig:RightShoulder
+      position: {x: -2.3841857e-11, y: 0.0014577195, z: 8.389353e-10}
+      rotation: {x: -0.11166774, y: -0.0029750164, z: 0.026465412, w: 0.99338865}
+      scale: {x: 0.99999994, y: 1.0000035, z: 1.0000026}
+    - name: Male_01_rig:RightForeArm
+      parentName: Male_01_rig:RightArm
+      position: {x: 6.0200694e-10, y: 0.0021698964, z: -5.930662e-10}
+      rotation: {x: -0.042224932, y: -0.00003778935, z: 0.0008924891, w: 0.9991078}
+      scale: {x: 0.9999996, y: 1.0000046, z: 1.0000045}
+    - name: Male_01_rig:RightHand
+      parentName: Male_01_rig:RightForeArm
+      position: {x: -5.9604643e-10, y: 0.0018630826, z: -6.4969063e-10}
+      rotation: {x: 0.06683771, y: 0.054835793, z: -0.08818769, w: 0.9923451}
+      scale: {x: 1.0000017, y: 1.0000048, z: 1.0000017}
+    - name: Male_01_rig:RightHandThumb1
+      parentName: Male_01_rig:RightHand
+      position: {x: -0.00025141836, y: 0.0000895988, z: 0.00008326532}
+      rotation: {x: 0.033409886, y: 0.054450244, z: 0.530841, w: 0.84506035}
+      scale: {x: 1.0000042, y: 1.0000021, z: 1.0000049}
+    - name: Male_01_rig:RightHandThumb2
+      parentName: Male_01_rig:RightHandThumb1
+      position: {x: 0.00001881368, y: 0.00022288144, z: -7.152557e-10}
+      rotation: {x: 0.029399317, y: 0.0035961128, z: -0.060583334, w: 0.9977236}
+      scale: {x: 1.000001, y: 0.99999464, z: 1.0000118}
+    - name: Male_01_rig:RightHandThumb3
+      parentName: Male_01_rig:RightHandThumb2
+      position: {x: -0.000012474847, y: 0.00023645001, z: 4.053116e-10}
+      rotation: {x: -0.036506377, y: 0.004530687, z: 0.008015547, w: 0.99929106}
+      scale: {x: 1.000003, y: 1.0000136, z: 0.9999945}
+    - name: Male_01_rig:RightHandThumb4
+      parentName: Male_01_rig:RightHandThumb3
+      position: {x: -0.0000063403127, y: 0.0002026799, z: 3.0994413e-10}
+      rotation: {x: 0.00000058114523, y: 0.000000110293556, z: 0.00000039459408, w: 1}
+      scale: {x: 1.0000005, y: 1.0000019, z: 1.0000012}
+    - name: Male_01_rig:RightHandThumb4_end
+      parentName: Male_01_rig:RightHandThumb4
+      position: {x: -0, y: 0.00020277649, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightHandIndex1
+      parentName: Male_01_rig:RightHand
+      position: {x: -0.00028182514, y: 0.0005522561, z: 0.000012891411}
+      rotation: {x: -0.030228086, y: -0.004901764, z: 0.14730242, w: 0.98861736}
+      scale: {x: 1.0000023, y: 1.0000024, z: 1.0000051}
+    - name: Male_01_rig:RightHandIndex2
+      parentName: Male_01_rig:RightHandIndex1
+      position: {x: 0.0000003372669, y: 0.0002805426, z: -3.4570694e-10}
+      rotation: {x: 0.04046387, y: -0.00000044982863, z: -0.0004390642, w: 0.9991809}
+      scale: {x: 0.9999997, y: 1.0000018, z: 1.0000027}
+    - name: Male_01_rig:RightHandIndex3
+      parentName: Male_01_rig:RightHandIndex2
+      position: {x: -0.00000031893254, y: 0.00025583376, z: -1.4305114e-10}
+      rotation: {x: -0.028723791, y: -0.000000023863612, z: 0.000000032968476, w: 0.9995874}
+      scale: {x: 0.99999976, y: 1.0000007, z: 1.0000005}
+    - name: Male_01_rig:RightHandIndex4
+      parentName: Male_01_rig:RightHandIndex3
+      position: {x: -0.000000017356871, y: 0.00023146578, z: 3.2186503e-10}
+      rotation: {x: 0.00000021047885, y: 0.00000007709607, z: 0.000000060548594, w: 1}
+      scale: {x: 1.0000015, y: 1.0000006, z: 1.0000014}
+    - name: Male_01_rig:RightHandIndex4_end
+      parentName: Male_01_rig:RightHandIndex4
+      position: {x: -0, y: 0.00023146585, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightHandMiddle1
+      parentName: Male_01_rig:RightHand
+      position: {x: -0.000083724466, y: 0.0005807936, z: 0.0000035176456}
+      rotation: {x: -0.020691039, y: -0.0004436522, z: 0.021429023, w: 0.9995562}
+      scale: {x: 1.0000012, y: 1.0000033, z: 1.0000055}
+    - name: Male_01_rig:RightHandMiddle2
+      parentName: Male_01_rig:RightHandMiddle1
+      position: {x: 0.00000008536578, y: 0.00031586006, z: -4.291534e-10}
+      rotation: {x: 0.040327787, y: -0.000010585027, z: -0.00026624303, w: 0.99918646}
+      scale: {x: 1.0000005, y: 1.0000038, z: 1.0000039}
+    - name: Male_01_rig:RightHandMiddle3
+      parentName: Male_01_rig:RightHandMiddle2
+      position: {x: -0.00000032714007, y: 0.0002972122, z: -2.4139882e-10}
+      rotation: {x: -0.038806338, y: 0.000005259906, z: 0.00060111104, w: 0.9992466}
+      scale: {x: 1.0000017, y: 1.0000051, z: 1.0000049}
+    - name: Male_01_rig:RightHandMiddle4
+      parentName: Male_01_rig:RightHandMiddle3
+      position: {x: 0.00000024148264, y: 0.00026414968, z: -3.3490358e-10}
+      rotation: {x: -0.00000005960463, y: -7.494803e-10, z: 0.00000003538372, w: 1}
+      scale: {x: 1.0000014, y: 1.000004, z: 1.000004}
+    - name: Male_01_rig:RightHandMiddle4_end
+      parentName: Male_01_rig:RightHandMiddle4
+      position: {x: -0, y: 0.00026415152, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightHandRing1
+      parentName: Male_01_rig:RightHand
+      position: {x: 0.00010696834, y: 0.0005817735, z: -0.000014540134}
+      rotation: {x: 0.013598659, y: -0.0043394063, z: -0.0059448825, w: 0.99988043}
+      scale: {x: 0.9999985, y: 1.0000058, z: 1.0000026}
+    - name: Male_01_rig:RightHandRing2
+      parentName: Male_01_rig:RightHandRing1
+      position: {x: -0.000000046186145, y: 0.0002733591, z: -4.9248333e-10}
+      rotation: {x: -0.0012366507, y: 0.00000014295799, z: 0.00000028134667, w: 0.9999992}
+      scale: {x: 1.0000006, y: 1.000004, z: 1.0000043}
+    - name: Male_01_rig:RightHandRing3
+      parentName: Male_01_rig:RightHandRing2
+      position: {x: 0.000000010472535, y: 0.00025867237, z: 2.3841856e-10}
+      rotation: {x: -0.038971685, y: -0.0000053851054, z: 0.000032083422, w: 0.9992403}
+      scale: {x: 1.0000011, y: 1.0000037, z: 1.0000064}
+    - name: Male_01_rig:RightHandRing4
+      parentName: Male_01_rig:RightHandRing3
+      position: {x: 0.00000003581047, y: 0.00023786313, z: -8.046626e-11}
+      rotation: {x: 0.00000068545336, y: 0.000000046630028, z: -0.00000018904628,
+        w: 1}
+      scale: {x: 1.000001, y: 1.0000032, z: 1.0000023}
+    - name: Male_01_rig:RightHandRing4_end
+      parentName: Male_01_rig:RightHandRing4
+      position: {x: -0, y: 0.00023786238, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightHandPinky1
+      parentName: Male_01_rig:RightHand
+      position: {x: 0.00025858099, y: 0.00053034414, z: 0.0000144448095}
+      rotation: {x: -0.003127365, y: 0.0067936745, z: 0.0006870475, w: 0.9999718}
+      scale: {x: 0.9999962, y: 1.0000061, z: 1.0000052}
+    - name: Male_01_rig:RightHandPinky2
+      parentName: Male_01_rig:RightHandPinky1
+      position: {x: 0.0000000028848646, y: 0.0002404424, z: -1.2516975e-10}
+      rotation: {x: 0.040873244, y: 0.000008374915, z: 0.00015694146, w: 0.99916434}
+      scale: {x: 1.0000005, y: 1.0000048, z: 0.9999994}
+    - name: Male_01_rig:RightHandPinky3
+      parentName: Male_01_rig:RightHandPinky2
+      position: {x: 0.00000025233027, y: 0.00020292428, z: 0.000000001478195}
+      rotation: {x: -0.03714096, y: 0.000010026237, z: -0.00095569564, w: 0.99930966}
+      scale: {x: 1.0000005, y: 1.0000026, z: 1.0000039}
+    - name: Male_01_rig:RightHandPinky4
+      parentName: Male_01_rig:RightHandPinky3
+      position: {x: -0.0000002559006, y: 0.00017802046, z: -4.7087667e-10}
+      rotation: {x: 0.000005677341, y: -0.000000027468495, z: 0.0000036191755, w: 1}
+      scale: {x: 1.0000015, y: 1.0000033, z: 1.0000058}
+    - name: Male_01_rig:RightHandPinky4_end
+      parentName: Male_01_rig:RightHandPinky4
+      position: {x: -0, y: 0.00017801845, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:LeftUpLeg
+      parentName: Male_01_rig:Hips
+      position: {x: -0.00097511266, y: -0.0004982839, z: -0.00002485553}
+      rotation: {x: 0.0023162654, y: -0.07132769, z: 0.9969246, w: 0.03237881}
+      scale: {x: 0.9999995, y: 0.9999986, z: 1.0000035}
+    - name: Male_01_rig:LeftLeg
+      parentName: Male_01_rig:LeftUpLeg
+      position: {x: -8.940696e-11, y: 0.0036306574, z: -1.1920928e-10}
+      rotation: {x: -0.008957957, y: 0.00020158966, z: -0.022140836, w: 0.99971473}
+      scale: {x: 1.0000045, y: 1.0000083, z: 1.0000029}
+    - name: Male_01_rig:LeftFoot
+      parentName: Male_01_rig:LeftLeg
+      position: {x: -3.5762785e-11, y: 0.002867094, z: -8.940696e-12}
+      rotation: {x: -0.5253737, y: -0.044537418, z: 0.027550919, w: -0.84925836}
+      scale: {x: 1.0000033, y: 1.0000049, z: 1.0000035}
+    - name: Male_01_rig:LeftToeBase
+      parentName: Male_01_rig:LeftFoot
+      position: {x: 8.121133e-11, y: 0.0018693679, z: 3.5762785e-11}
+      rotation: {x: -0.2996569, y: -0.026406957, z: 0.008297053, w: -0.95364547}
+      scale: {x: 1.0000043, y: 1.000006, z: 1.000002}
+    - name: Male_01_rig:LeftToe_End
+      parentName: Male_01_rig:LeftToeBase
+      position: {x: -3.0547377e-11, y: 0.00068800576, z: -2.3841857e-11}
+      rotation: {x: -0.000000029802326, y: -0.00000004470349, z: -0.00000071432447,
+        w: 1}
+      scale: {x: 0.9999982, y: 0.99999857, z: 0.99999845}
+    - name: Male_01_rig:LeftToe_End_end
+      parentName: Male_01_rig:LeftToe_End
+      position: {x: -0, y: 0.0006880078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Male_01_rig:RightUpLeg
+      parentName: Male_01_rig:Hips
+      position: {x: 0.0009751129, y: -0.00049828395, z: 0.000017593557}
+      rotation: {x: 0.0025396086, y: 0.07831018, z: -0.9964027, w: 0.032293446}
+      scale: {x: 1.000007, y: 1.0000055, z: 1.0000097}
+    - name: Male_01_rig:RightLeg
+      parentName: Male_01_rig:RightUpLeg
+      position: {x: -1.490116e-11, y: 0.003638284, z: 3.5762785e-11}
+      rotation: {x: 0.00021280625, y: -0.0000015925616, z: 0.022239523, w: 0.9997527}
+      scale: {x: 1.0000026, y: 1.0000056, z: 1.0000006}
+    - name: Male_01_rig:RightFoot
+      parentName: Male_01_rig:RightLeg
+      position: {x: 5.9604643e-12, y: 0.0028650844, z: 2.3841857e-11}
+      rotation: {x: -0.5149874, y: 0.047058187, z: -0.02832688, w: -0.85543627}
+      scale: {x: 1.0000039, y: 1.0000069, z: 1.0000083}
+    - name: Male_01_rig:RightToeBase
+      parentName: Male_01_rig:RightFoot
+      position: {x: 2.4959443e-10, y: 0.001819531, z: -2.3841857e-11}
+      rotation: {x: 0.30905235, y: -0.022550626, z: 0.0073299976, w: 0.95074934}
+      scale: {x: 1.000003, y: 1.0000021, z: 1.0000039}
+    - name: Male_01_rig:RightToe_End
+      parentName: Male_01_rig:RightToeBase
+      position: {x: 7.3015684e-11, y: 0.00068892585, z: 3.5762785e-11}
+      rotation: {x: 0.000000029802319, y: 0.000000080093734, z: -0.00000008661299,
+        w: 1}
+      scale: {x: 1.0000026, y: 1.0000014, z: 1.0000024}
+    - name: Male_01_rig:RightToe_End_end
+      parentName: Male_01_rig:RightToe_End
+      position: {x: -0, y: 0.00068893074, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: European Male_01_RightShoe
+      parentName: European Male_01(Clone)
+      position: {x: -0.0006521551, y: 0.00052974804, z: 0.0014710337}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100.000015, z: 99.99997}
+    - name: European Male_01_LeftShoe
+      parentName: European Male_01(Clone)
+      position: {x: -0.00065308507, y: 0.00053049234, z: -0.0018477896}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 99.999985, y: 100, z: 99.999985}
+    - name: European Male_01_Jeans
+      parentName: European Male_01(Clone)
+      position: {x: -0.00040813297, y: 0.0044775, z: -0.00018442981}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100, z: 99.999985}
+    - name: European Male_01_LeftHand
+      parentName: European Male_01(Clone)
+      position: {x: -0.0006391605, y: 0.011903972, z: -0.00702085}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100, z: 99.999985}
+    - name: European Male_01_Jacket
+      parentName: European Male_01(Clone)
+      position: {x: -0.00075096387, y: 0.009961578, z: -0.0001844284}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100, z: 99.999985}
+    - name: European Male_01_RightHand
+      parentName: European Male_01(Clone)
+      position: {x: -0.00064350496, y: 0.011903969, z: 0.0066509116}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100, z: 99.999985}
+    - name: European Male_01_Head
+      parentName: European Male_01(Clone)
+      position: {x: -0.00074492826, y: 0.013613104, z: -0.00018624535}
+      rotation: {x: -0.5000007, y: -0.49999928, z: -0.4999999, w: 0.5000001}
+      scale: {x: 100, y: 100, z: 99.999985}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -252,13 +1519,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.0025
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
