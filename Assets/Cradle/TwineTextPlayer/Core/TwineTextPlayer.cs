@@ -229,20 +229,11 @@ namespace Cradle.Players
 
                 GCTextToSpeech _gcTextToSpeech = GCTextToSpeech.Instance;
 
-
-                _gcTextToSpeech.GetVoicesSuccessEvent += _gcTextToSpeech_GetVoicesSuccessEvent;
                 _gcTextToSpeech.SynthesizeSuccessEvent += _gcTextToSpeech_SynthesizeSuccessEvent;
-
-                _gcTextToSpeech.GetVoicesFailedEvent += _gcTextToSpeech_GetVoicesFailedEvent;
                 _gcTextToSpeech.SynthesizeFailedEvent += _gcTextToSpeech_SynthesizeFailedEvent;
 
 
                 void _gcTextToSpeech_SynthesizeFailedEvent(string error)
-                {
-                    Debug.Log(error);
-                }
-
-                void _gcTextToSpeech_GetVoicesFailedEvent(string error)
                 {
                     Debug.Log(error);
                 }
@@ -376,12 +367,7 @@ namespace Cradle.Players
                     }
 
                 }
-                void _gcTextToSpeech_GetVoicesSuccessEvent(GetVoicesResponse response)
-                {
-                    //_voices = response.voices;
-                }
-
-               
+          
                 //###############################################################################################################
 
             }
