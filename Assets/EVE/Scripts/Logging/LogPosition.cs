@@ -9,15 +9,21 @@ public class LogPosition : MonoBehaviour
     public float timestep_in_sec;
     public GameObject player;
 
+    public GameObject location;
+    public GameObject orientation;
+
+
     //private int n;	// incremeant with the logs of position
     private LoggingManager log;
 
     private bool repeating = false;
-    
+
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        location = player;
+        orientation = player;
         LaunchManager launchManager = GameObject.FindGameObjectWithTag("LaunchManager").GetComponent<LaunchManager>();
         log = launchManager.LoggingManager;
     }
@@ -45,19 +51,20 @@ public class LogPosition : MonoBehaviour
         if (this.gameObject.transform.parent.gameObject.activeSelf && !player.GetComponentInChildren<ReplayRoute>().isActivated())
         {
             //Position
-            float x = player.transform.position.x;
-            float y = player.transform.position.y;
-            float z = player.transform.position.z;
+            float x = location.transform.position.x;
+            float y = location.transform.position.y;
+            float z = location.transform.position.z;
 
             //View angles
-            float ex = player.transform.eulerAngles.x;
-            float ey = player.transform.eulerAngles.y;
-            float ez = player.transform.eulerAngles.z;
+            float ex = orientation.transform.eulerAngles.x;
+            float ey = orientation.transform.eulerAngles.y;
+            float ez = orientation.transform.eulerAngles.z;
 
             if (log != null)
                 log.LogPositionAndView(x, y, z, ex, ey, ez);
 
-        } else
+        }
+        else
         {
             repeating = false;
             CancelInvoke();

@@ -30,7 +30,7 @@ public class LaunchManager : MonoBehaviour
     /// <summary>
     /// First person controller that is moved through all scenes of an experiment.
     /// </summary>
-    public GameObject FirstPersonController { get; private set; }
+    public GameObject FirstPersonController { get; set; }
 
     /// <summary>
     /// Canvas for menus to be displayed in.
