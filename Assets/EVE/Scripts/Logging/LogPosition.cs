@@ -8,6 +8,7 @@ public class LogPosition : MonoBehaviour
 
     public float timestep_in_sec;
     public GameObject player;
+    public GameObject gamecontroller;
 
     public GameObject location;
     public GameObject orientation;
@@ -22,8 +23,9 @@ public class LogPosition : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        gamecontroller = GameObject.FindGameObjectWithTag("GameController");
         location = player;
-        orientation = player;
+        orientation = gamecontroller;
         LaunchManager launchManager = GameObject.FindGameObjectWithTag("LaunchManager").GetComponent<LaunchManager>();
         log = launchManager.LoggingManager;
     }
@@ -56,9 +58,9 @@ public class LogPosition : MonoBehaviour
             float z = location.transform.position.z;
 
             //View angles
-            float ex = orientation.transform.eulerAngles.x;
-            float ey = orientation.transform.eulerAngles.y;
-            float ez = orientation.transform.eulerAngles.z;
+            float ex = orientation.transform.eulerAngles.x - 360f;
+            float ey = orientation.transform.eulerAngles.y - 90f;
+            float ez = orientation.transform.eulerAngles.z - 360f;
 
             if (log != null)
                 log.LogPositionAndView(x, y, z, ex, ey, ez);
