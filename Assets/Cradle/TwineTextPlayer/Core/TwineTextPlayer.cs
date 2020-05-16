@@ -27,13 +27,11 @@ namespace Cradle.Players
         static Regex rx_splitText = new Regex(@"(\s+|[^\s]+)");
 
 
-        private GCTextToSpeech _gcTextToSpeech;
-        public AudioSource audioSourceDenis;
-        public AudioSource audioSourceMike;
-        public AudioSource audioSourceRemy;
-        public AudioSource audioSourceZoe;
-        public AudioSource audioSourceStefani;
-        public AudioSource audioSourceRegina;
+        private GCTextToSpeech _gcTextToSpeech; //Google Text to Speech
+
+
+        public AudioSource audioSource; //Audioquelle
+
 
         public Text antworttext;
         GameObject AntwortDisplay;
@@ -44,29 +42,25 @@ namespace Cradle.Players
         public String ZoeVoice;
         public String StefaniVoice;
         public String ReginaVoice;
+        public String Sprache;
 
         GameObject Avatar;
 
         private String Entiretext;//Text in Variable abspeichern, damit auf Leerzeilen verwendet werden können
-
+        private float Laenge;
         //KeywordRecognizer
         private KeywordRecognizer keywordRecognizer;
         private Dictionary<string, StoryLink> actions = new Dictionary<string, StoryLink>();
 
-        //Warte 3 Sekunden bevor Story beginnt
+        //Warte 5 Sekunden bevor Story beginnt
         private float startWait = 5f;
-
-
-
-        private LaunchManager launchManager;
-        private LoggingManager log;
 
 
         void Start()
         {
             Invoke("Initialize", startWait);
             Debug.Log("Warte " + startWait + " Sekunden");
-
+            audioSource = GameObject.FindGameObjectWithTag("Audiosource").GetComponent<AudioSource>();// Zuweisen von Audioquelle
         }
 
 
@@ -105,12 +99,6 @@ namespace Cradle.Players
             keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
             keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
             keywordRecognizer.Start();
-
-            //EVE
-            //launchManager = GameObject.FindGameObjectWithTag("LaunchManager").GetComponent<LaunchManager>();
-            //log = launchManager.LoggingManager;
-            //int maxDuration = int.Parse(log.GetParameterValue("maxDuration"));
-            //bool timePressure = log.GetParameterValue("timePressure").ToLower() == "yes";
 
             if (StartStory)
                 this.Story.Begin();
@@ -212,16 +200,7 @@ namespace Cradle.Players
             {
                 var text = (StoryText)output;
 
-
-                if (!string.IsNullOrEmpty(text.Text))//Prüfen ob Story Leerzeilen beinhaltet.
-                {
-                    if (text.Text != " ")
-                    {
-                        Entiretext += text.Text;
-                    }
-                }
-
-
+                Entiretext += text.Text; //Einzelne Zeilen in Variable abspeichern
 
                 //###############################################################################################################
                 //Google Cloud Text to Speech
@@ -242,7 +221,7 @@ namespace Cradle.Players
                 //#region sucess handlers   
                 _gcTextToSpeech.GetVoices(new GetVoicesRequest()
                 {
-                    languageCode = "de_DE"
+                    languageCode = "" + Sprache + ""
                 });
 
                 //Prüfen welches GameObject aktiv ist, um zugeteilte Stimme auszugeben.
@@ -257,7 +236,7 @@ namespace Cradle.Players
                     );
                 }
 
-               else if (Avatar = GameObject.Find("Mike"))
+                else if (Avatar = GameObject.Find("Mike"))
                 {
                     _gcTextToSpeech.Synthesize(Entiretext, new VoiceConfig()
                     {
@@ -274,7 +253,7 @@ namespace Cradle.Players
                     {
                         gender = Enumerators.SsmlVoiceGender.MALE,
                         languageCode = "de_DE",
-                        name = ""+RemyVoice+""
+                        name = "" + RemyVoice + ""
                     }
                     );
                 }
@@ -315,59 +294,11 @@ namespace Cradle.Players
 
                 void _gcTextToSpeech_SynthesizeSuccessEvent(PostSynthesizeResponse response)
                 {
-
-                    if (Avatar = GameObject.Find("Denis"))
-                    {
-                        audioSourceDenis.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceDenis.Play();
-                        Debug.Log(audioSourceDenis.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceDenis.clip.length);
-
-
-                    }
-
-                    else if (Avatar = GameObject.Find("Mike"))
-                    {
-                        audioSourceMike.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceMike.Play();
-                        Debug.Log(audioSourceMike.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceMike.clip.length);
-                    }
-
-                    else if (Avatar = GameObject.Find("Remy"))
-                    {
-                        audioSourceRemy.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceRemy.Play();
-                        Debug.Log(audioSourceRemy.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceRemy.clip.length);
-                    }
-
-                    else if (Avatar = GameObject.Find("Zoe"))
-                    {
-                        audioSourceZoe.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceZoe.Play();
-                        Debug.Log(audioSourceZoe.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceZoe.clip.length);
-                    }
-
-                    else if (Avatar = GameObject.Find("Stefani"))
-                    {
-                        audioSourceStefani.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceStefani.Play();
-                        Debug.Log(audioSourceStefani.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceStefani.clip.length);
-                    }
-
-                    else if (Avatar = GameObject.Find("Regina"))
-                    {
-                        audioSourceRegina.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
-                        audioSourceRegina.Play();
-                        Debug.Log(audioSourceRegina.clip.length);
-                        Invoke("Antworttext_einblenden", audioSourceRegina.clip.length);
-                    }
-
+                    audioSource.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
+                    audioSource.Play();
+                    Invoke("Verzoegerung", 1);
                 }
-          
+
                 //###############################################################################################################
 
             }
@@ -428,6 +359,13 @@ namespace Cradle.Players
         {
             antworttext = GameObject.Find("AntwortText").GetComponent<Text>();
             antworttext.text += "\n" + text + "\n";
+        }
+
+        void Verzoegerung()//Zwischenschritt, dass Verzögerung für Linebreak funktioniert
+        {
+            Laenge = Mathf.Max(audioSource.clip.length);
+            Debug.Log(Laenge);
+            Invoke("Antworttext_einblenden", Laenge);
         }
 
         void Antworttext_einblenden()//Wird erst angezeigt wenn OutputText gesprochen wurde
