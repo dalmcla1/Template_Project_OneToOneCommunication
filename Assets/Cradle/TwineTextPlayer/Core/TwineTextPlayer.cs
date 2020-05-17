@@ -17,9 +17,6 @@ namespace Cradle.Players
     {
         public Story Story;
         public RectTransform Container;
-        public Button LinkTemplate;
-        public Text WordTemplate;
-        public RectTransform LineBreakTemplate;
         public bool StartStory = true;
         public bool AutoDisplay = true;
         public bool ShowNamedLinks = true;
@@ -42,12 +39,13 @@ namespace Cradle.Players
         public String ZoeVoice;
         public String StefaniVoice;
         public String ReginaVoice;
-        public String Sprache;
+        public String Language;
 
         GameObject Avatar;
 
         private String Entiretext;//Text in Variable abspeichern, damit auf Leerzeilen verwendet werden können
-        private float Laenge;
+        private float Lenght;
+
         //KeywordRecognizer
         private KeywordRecognizer keywordRecognizer;
         private Dictionary<string, StoryLink> actions = new Dictionary<string, StoryLink>();
@@ -69,18 +67,6 @@ namespace Cradle.Players
 
             if (!Application.isPlaying)
                 return;
-
-            LinkTemplate.gameObject.SetActive(false);
-            ((RectTransform)LinkTemplate.transform).SetParent(null);
-            LinkTemplate.transform.hideFlags = HideFlags.HideInHierarchy;
-
-            WordTemplate.gameObject.SetActive(false);
-            WordTemplate.rectTransform.SetParent(null);
-            WordTemplate.rectTransform.hideFlags = HideFlags.HideInHierarchy;
-
-            LineBreakTemplate.gameObject.SetActive(false);
-            LineBreakTemplate.SetParent(null);
-            LineBreakTemplate.hideFlags = HideFlags.HideInHierarchy;
 
             if (this.Story == null)
                 this.Story = this.GetComponent<Story>();
@@ -221,7 +207,7 @@ namespace Cradle.Players
                 //#region sucess handlers   
                 _gcTextToSpeech.GetVoices(new GetVoicesRequest()
                 {
-                    languageCode = "" + Sprache + ""
+                    languageCode = "" + Language + ""
                 });
 
                 //Prüfen welches GameObject aktiv ist, um zugeteilte Stimme auszugeben.
@@ -296,7 +282,7 @@ namespace Cradle.Players
                 {
                     audioSource.clip = _gcTextToSpeech.GetAudioClipFromBase64(response.audioContent, Constants.DEFAULT_AUDIO_ENCODING);
                     audioSource.Play();
-                    Invoke("Verzoegerung", 1);
+                    Invoke("Verzoegerung", 0.5f);
                 }
 
                 //###############################################################################################################
@@ -326,25 +312,8 @@ namespace Cradle.Players
 
                 Antworttext(output.Text);
 
-                Button uiLink = (Button)Instantiate(LinkTemplate);
-                uiLink.gameObject.SetActive(true);
-                uiLink.name = "[[" + link.Text + "]]";
+            }
 
-                Text uiLinkText = uiLink.GetComponentInChildren<Text>();
-                uiLinkText.text = link.Text;
-                uiLink.onClick.AddListener(() =>
-                {
-                    this.Story.DoLink(link);
-                });
-                AddToUI((RectTransform)uiLink.transform, output, uiInsertIndex);
-            }
-            else if (output is LineBreak)
-            {
-                var br = (RectTransform)Instantiate(LineBreakTemplate);
-                br.gameObject.SetActive(true);
-                br.gameObject.name = "(br)";
-                AddToUI(br, output, uiInsertIndex);
-            }
             else if (output is OutputGroup)
             {
                 // Add an empty indicator to later positioning
@@ -363,9 +332,9 @@ namespace Cradle.Players
 
         void Verzoegerung()//Zwischenschritt, dass Verzögerung für Linebreak funktioniert
         {
-            Laenge = Mathf.Max(audioSource.clip.length);
-            Debug.Log(Laenge);
-            Invoke("Antworttext_einblenden", Laenge);
+            Lenght = Mathf.Max(audioSource.clip.length);
+            Debug.Log(Lenght);
+            Invoke("Antworttext_einblenden", Lenght);
         }
 
         void Antworttext_einblenden()//Wird erst angezeigt wenn OutputText gesprochen wurde
